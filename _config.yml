@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "Johannes Hollenbach"
   avatar           : "profile.png"
-  bio              : "Researcher & doctoral student at <a style='color: black;' href='https://www.rwi-essen.de' target="_blank" >RWI - Leibniz-Institute for Economic Research</a>"
+  bio              : "Researcher & doctoral student at <a style='color: black;' href='https://www.rwi-essen.de' target='_blank' >RWI - Leibniz-Institute for Economic Research</a>"
   location         : "Essen, Germany"
   employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
