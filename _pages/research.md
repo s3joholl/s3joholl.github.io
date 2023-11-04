@@ -16,8 +16,11 @@ Ruhr Economic Papers #1024. Forthcoming.
 
 ## Work in Progress
 Gene-environment interactions with essential heterogeneity (<em>with Hendrik Schmitz and Matthias Westphal</em>)
-The health e ects of car pollution in Germany (<em>with Robin Kottmann, Felix Noth, Lena Tonzer and Amelie Wuppermann</em>)
+
+The health effects of car pollution in Germany (<em>with Robin Kottmann, Felix Noth, Lena Tonzer and Amelie Wuppermann</em>)
+
 A nationwide digital maturity assessment of hospitals: Results from the German DigitalRadar (<em>with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun and Alexander Haering</em>) - R&R
 at npj: Digital Medicine
-The association of hospital pro tability and digital maturity - An explorative study using data from
+
+The association of hospital profitability and digital maturity - An explorative study using data from
 the German DigitalRadar project (<em> with Justus Vogel, Alexander Haering, Alexander Geissler and Boris Augurzky </em>) - R&R at Health Policy
