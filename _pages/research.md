@@ -24,3 +24,13 @@ at npj: Digital Medicine
 
 <strong>The association of hospital profitability and digital maturity - An explorative study using data from
 the German DigitalRadar project</strong> (with Justus Vogel, Alexander Haering, Alexander Geissler and Boris Augurzky) - R&R at Health Policy
+
+
+## Monographs
+Heger, D., B. Augurzky, H. Bergschneider, J. Hollenbach,  I. Kolodziej and C. Wuckel (2023), <em>Pflegeheim Rating Report 2024: Pflege ohne Personal?</em>. Heidelberg: medhochzwei.
+
+Augurzky, B., S. Krolop, J. Hollenbach, D. Monsees, A. Pilny, C. M. Schmidt, C. Wuckel (2023), <em>Krankenhaus Rating Report 2023: Die Revolution?!</em>. Heidelberg: medhochzwei.
+
+Augurzky, B., S. Krolop, J. Hollenbach, D. Monsees, A. Pilny, C. M. Schmidt, and C. Wuckel (2022), <em>Krankenhaus Rating Report 2022: Vom Krankenhaus zum Geisterhaus?</em>. Heidelberg: medhochzwei.
+
+Heger, D., B. Augurzky, I. Kolodziej, C. Wuckel and J. Hollenbach (2021), <em>Pflegeheim Rating Report 2022: Der Pflegemarkt unter Druck - Zeit für Veränderung</em>. Heidelberg: medhochzwei.
