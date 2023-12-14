@@ -15,6 +15,8 @@ Ruhr Economic Papers #1024. Forthcoming.
 
 
 ## Work in Progress
+<strong>Can education compensate for the "genetic lottery"?</strong> (with Hendrik Schmitz and Matthias Westphal)
+
 <strong>Gene-environment interactions with essential heterogeneity</strong> (with Hendrik Schmitz and Matthias Westphal)
 
 <strong>The health effects of car pollution in Germany</strong> (with Robin Kottmann, Felix Noth, Lena Tonzer and Amelie Wuppermann)
