@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Johannes, a researcher at <a href="https://www.rwi-essen.de/" target="_blank">RWI - Leibniz-Institute for Economic Research</a> in Essen, Germany and an economics PhD student at the University of Paderborn (advisor: <a href="https://wiwi.uni-paderborn.de/en/wiwiunipaderborndewipo/empwifo/team/prof-dr-hendrik-schmitz/" target="_blank">Hendrik Schmitz</a>).
+Hi! I'm Johannes, a researcher at <a href="https://www.rwi-essen.de/" target="_blank">RWI - Leibniz-Institute for Economic Research</a> in Essen, Germany and an economics PhD student at the University of Paderborn (advisor: <a href="https://wiwi.uni-paderborn.de/en/department-4-economics/schmitz/team/prof-dr-hendrik-schmitz/" target="_blank">Hendrik Schmitz</a>).
 
 My areas of research include applied econometrics, health economics and social genomics. I'm particularly interested in how policy interventions can improve health, reduce inequalities and support human capital development.
 
