@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-
+<!--
 ## Working Papers
 Guthmuller, S., D. Heger, J. Hollenbach and A. Werbeck (2023), <em>Retirement and Loneliness</em>. Ruhr
 Economic Papers #1048. Forthcoming.
@@ -12,7 +12,7 @@ Economic Papers #1048. Forthcoming.
 Vogel, J., J. Hollenbach, A. Haering, B. Augurzky and A. Geissler (2023), <em>Are Profitable Hospitals
 More Digitally Mature? An Explorative Study Using Data from the German DigitalRadar Project</em>.
 Ruhr Economic Papers #1024. Forthcoming.
-
+-->
 
 ## Work in Progress
 <strong>Can education compensate for the "genetic lottery"?</strong> (with Hendrik Schmitz and Matthias Westphal)
@@ -20,6 +20,8 @@ Ruhr Economic Papers #1024. Forthcoming.
 <strong>Gene-environment interactions with essential heterogeneity</strong> (with Hendrik Schmitz and Matthias Westphal)
 
 <strong>The health effects of car pollution in Germany</strong> (with Robin Kottmann, Felix Noth, Lena Tonzer and Amelie Wuppermann)
+
+<strong>Retirement and Loneliness</strong> (with Sophie Guthmuller, Dörte Heger and Anna Werbeck)
 
 <strong>A nationwide digital maturity assessment of hospitals: Results from the German DigitalRadar</strong> (with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun and Alexander Haering) - R&R at npj: Digital Medicine
 
