@@ -4,11 +4,11 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-<!--
-## Working Papers
-Guthmuller, S., D. Heger, J. Hollenbach and A. Werbeck (2023), <em>Retirement and Loneliness</em>. Ruhr
-Economic Papers #1048. Forthcoming.
 
+## Working Papers
+Guthmuller, S., D. Heger, J. Hollenbach and A. Werbeck (2023), <a href="https://www.rwi-essen.de/publikationen/wissenschaftlich/ruhr-economic-papers" target="_blank"><em>Retirement and Loneliness</em></a>. Ruhr Economic Papers #1048.
+<u>Abstract:</u> We investigate the short- and long-term effects of retirement on loneliness using panel data from the Survey of Health, Aging, and Retirement in Europe. To estimate causal effects, we exploit differences in retirement eligibility rules across and within countries and use retirement thresholds in an instrumental variable setting. On average, we find that entering retirement leads to a significant reduction in loneliness in the long run, although our results show no clear effect in the short run. The reduction is driven by individuals being less likely to feel socially isolated and lacking companionship. Our results suggest that individuals adapt to retirement by increasing their activity levels and reap the benefits in terms of reduced loneliness and social isolation. Heterogeneity analysis by gender reveals that retirement increases feelings of loneliness for women in the short term, and that this effect appears to be driven by women lacking companionship when their partner is not yet retired.
+<!--
 Vogel, J., J. Hollenbach, A. Haering, B. Augurzky and A. Geissler (2023), <em>Are Profitable Hospitals
 More Digitally Mature? An Explorative Study Using Data from the German DigitalRadar Project</em>.
 Ruhr Economic Papers #1024. Forthcoming.
@@ -20,8 +20,6 @@ Ruhr Economic Papers #1024. Forthcoming.
 <strong>Gene-environment interactions with essential heterogeneity</strong> (with Hendrik Schmitz and Matthias Westphal)
 
 <strong>The health effects of car pollution in Germany</strong> (with Robin Kottmann, Felix Noth, Lena Tonzer and Amelie Wuppermann)
-
-<strong>Retirement and Loneliness</strong> (with Sophie Guthmuller, Dörte Heger and Anna Werbeck)
 
 <strong>A nationwide digital maturity assessment of hospitals: Results from the German DigitalRadar</strong> (with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun and Alexander Haering) 
 
