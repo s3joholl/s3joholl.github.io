@@ -24,7 +24,7 @@ Ruhr Economic Papers #1024. Forthcoming.
 <strong>A nationwide digital maturity assessment of hospitals: Results from the German DigitalRadar</strong> (with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun and Alexander Haering) 
 
 <strong>The association of hospital profitability and digital maturity - An explorative study using data from
-the German DigitalRadar project</strong> (with Justus Vogel, Alexander Haering, Alexander Geissler and Boris Augurzky) - R&R at Health Policy
+the German DigitalRadar project</strong> (with Justus Vogel, Alexander Haering, Alexander Geissler and Boris Augurzky)
 
 
 ## Monographs
