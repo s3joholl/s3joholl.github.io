@@ -15,7 +15,7 @@ Ruhr Economic Papers #1024. Forthcoming.
 -->
 
 ## Work in Progress
-<strong>Can education compensate for the "genetic lottery"?</strong> (with Hendrik Schmitz and Matthias Westphal)
+<strong>Can education compensate for the genetic risk of cognitive decline?</strong> (with Hendrik Schmitz and Matthias Westphal)
 
 <strong>Gene-environment interactions with essential heterogeneity</strong> (with Hendrik Schmitz and Matthias Westphal)
 
