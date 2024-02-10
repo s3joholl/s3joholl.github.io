@@ -19,7 +19,7 @@ Ruhr Economic Papers #1024. Forthcoming.
 
 <strong>Gene-environment interactions with essential heterogeneity</strong> (with Hendrik Schmitz and Matthias Westphal)
 
-<strong>The health effects of car pollution in Germany</strong> (with Robin Kottmann, Felix Noth, Lena Tonzer and Amelie Wuppermann)
+<strong>Health effects of car pollution in Germany</strong> (with Robin Kottmann, Felix Noth, Lena Tonzer and Amelie Wuppermann)
 
 <strong>A nationwide digital maturity assessment of hospitals: Results from the German DigitalRadar</strong> (with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun and Alexander Haering) 
 
