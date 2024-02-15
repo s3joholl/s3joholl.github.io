@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-## Publications
+## Journal Articles
 <p style = "margin: 0">Vogel, J., J. Hollenbach, A. Haering, B. Augurzky and A. Geissler (2024), <a href="https://www.sciencedirect.com/science/article/pii/S0168851024000228" target="_blank"><em>The association of hospital profitability and digital maturity – An explorative study using data from the German DigitalRadar project</em></a>. Health Policy. Forthcoming.</p>
 <details>
     <summary>Abstract</summary>
