@@ -11,4 +11,4 @@ Hi! I'm Johannes, a researcher at <a href="https://www.rwi-essen.de/" target="_b
 
 My areas of research include applied econometrics, health economics and social genomics. I'm particularly interested in how policy interventions can improve health, reduce inequalities and support human capital development.
 
-As part of my work in policy consulting at RWI, I am helping to evaluate the Hospital Future Act (Krankenhauszukunftsgesetz), a federal program aimed at improving the digitalization of German hospitals. I have also co-authored several Hospital and Nursing Home Rating Reports (in German), which provide an overview of the economic situation of hospitals and nursing homes in Germany.
+As part of my work in policy consulting at RWI, I have written about hospital digitalization. I have also co-authored several Hospital and Nursing Home Rating Reports (in German), which provide an overview of the economic situation of hospitals and nursing homes in Germany.
