@@ -11,4 +11,7 @@ Hi! I'm Johannes, a researcher at RWI - Leibniz-Institute for Economic Research 
 
 My areas of research include health and education economics as well as social genomics. I'm particularly interested in how policy interventions can improve health, reduce inequalities and support human capital development.
 
-As part of my work in policy consulting at RWI, I have also written about hospital digitalization and co-authored several Hospital and Nursing Home Rating Reports (in German), which provide an overview of the economic situation of hospitals and nursing homes in Germany.
+As part of my work in policy consulting at RWI, I have also written about hospital digitalization and co-authored several Hospital and Nursing Home Rating Reports (in German)
+<!--
+, which provide an overview of the economic situation of hospitals and nursing homes in Germany.
+-->
