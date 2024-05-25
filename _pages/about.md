@@ -11,7 +11,7 @@ Hi! I'm Johannes, a Ph.D. candidate in Economics and research assistant at Pader
 
 My areas of research include health and education economics as well as social genomics. I'm particularly interested in heterogeneity from the &ldquo;genetic lottery&rdquo; and how policy interventions can improve health, reduce inequalities and support human capital development.
 
-As part of my work in policy consulting at RWI, I have also written about health policy, especially about digitalization and the economic situation of hospitals. 
+As part of my work in policy consulting at RWI, I have also written about health policy, especially the digitalization and the economic situation of hospitals.
 
 
 <!--
