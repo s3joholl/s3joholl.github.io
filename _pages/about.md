@@ -9,7 +9,7 @@ redirect_from:
 
 Hi! I'm Johannes, a Ph.D. candidate in Economics and research assistant at Paderborn University and RWI - Leibniz-Institute for Economic Research. My advisor is <a href="https://www.uni-paderborn.de/en/person/48879/" target="_blank">Hendrik Schmitz</a>. 
 
-My research areas include applied econometrics, health and education economics as well as social genomics. I'm particularly interested in heterogeneity from the &ldquo;genetic lottery&rdquo; and how policy interventions can improve health, reduce inequalities and support human capital development.
+My research areas include applied econometrics, health and education economics as well as social genomics. I'm particularly interested in heterogeneity from the &ldquo;genetic lottery&rdquo; and how policy interventions can support human capital development.
 
 As part of my work in policy consulting at RWI, I have also written about health policy, especially the digitalization and the economic situation of hospitals.
 
