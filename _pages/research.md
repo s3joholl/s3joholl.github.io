@@ -11,19 +11,19 @@ redirect_from:
 {% include base_path %}
 
 ## Works in progress 
-**Gene-environment interactions with essential heterogeneity** with Hendrik Schmitz and Matthias Westphal
+**Gene-environment interactions with essential heterogeneity** with Hendrik Schmitz and Matthias Westphal  
 In preparation
 
-**Life-cycle Health Effects of Compulsory Schooling** with Hendrik Schmitz and Beatrice Baaba Tawiah
+**Life-cycle Health Effects of Compulsory Schooling** with Hendrik Schmitz and Beatrice Baaba Tawiah  
 In Preparation
 
-**Retirement and Loneliness** with Sophie Guthmuller, Dörte Heger and Anna Werbeck
+**Retirement and Loneliness** with Sophie Guthmuller, Dörte Heger and Anna Werbeck  
 Under review
 
-**A nationwide digital maturity assessment of hospitals: Results from the German DigitalRadar** with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun and Alexander Haering
+**A nationwide digital maturity assessment of hospitals: Results from the German DigitalRadar** with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun and Alexander Haering  
 Under review
 
 ## Published and Accepted Work
 
-[**The association of hospital profitability and digital maturity – An explorative study using data from the German DigitalRadar project**](https://www.sciencedirect.com/science/article/pii/S0168851024000228) with Justus Vogel, Alexander Haering, Boris Augurzky and Alexander Geissler
+[**The association of hospital profitability and digital maturity – An explorative study using data from the German DigitalRadar project**](https://www.sciencedirect.com/science/article/pii/S0168851024000228) with Justus Vogel, Alexander Haering, Boris Augurzky and Alexander Geissler  
 *Health Policy*, Vol. 142 (April 2024)
