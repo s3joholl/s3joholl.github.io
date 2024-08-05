@@ -17,13 +17,13 @@ In preparation
 **Life-cycle Health Effects of Compulsory Schooling** with Hendrik Schmitz and Beatrice Baaba Tawiah  
 In Preparation
 
-**Retirement and Loneliness** with Sophie Guthmuller, Dörte Heger and Anna Werbeck  
+[**Retirement and Loneliness**]("https://www.rwi-essen.de/fileadmin/user_upload/RWI/Publikationen/Ruhr_Economic_Papers/REP_23_1048.pdf") with Sophie Guthmuller, Dörte Heger and Anna Werbeck  
 Under review
 
 **A nationwide digital maturity assessment of hospitals: Results from the German DigitalRadar** with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun and Alexander Haering  
 Under review
 
-## Published and Accepted Work
+## Published and accepted Work
 
 [**The association of hospital profitability and digital maturity – An explorative study using data from the German DigitalRadar project**](https://www.sciencedirect.com/science/article/pii/S0168851024000228) with Justus Vogel, Alexander Haering, Boris Augurzky and Alexander Geissler  
 *Health Policy*, Vol. 142 (April 2024)
