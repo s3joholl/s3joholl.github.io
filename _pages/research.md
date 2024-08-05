@@ -27,3 +27,6 @@ Under review
 
 [**The association of hospital profitability and digital maturity – An explorative study using data from the German DigitalRadar project**](https://www.sciencedirect.com/science/article/pii/S0168851024000228) with Justus Vogel, Alexander Haering, Boris Augurzky and Alexander Geissler  
 *Health Policy*, Vol. 142 (April 2024)
+
+## Other writing
+I am co-author of several [Hospital and Nursing Home Rating Reports](https://www.medhochzwei-verlag.de/Verlag/Autoren/Detail/114112) (in German) where I calculate default probabilities for the majority of German hospitals / nursing homes using financial statement data. 
