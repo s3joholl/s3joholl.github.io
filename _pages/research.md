@@ -29,4 +29,4 @@ Under review
 *Health Policy*, Vol. 142 (April 2024)
 
 ## Other writing
-I am co-author of several [Hospital and Nursing Home Rating Reports](https://www.medhochzwei-verlag.de/Verlag/Autoren/Detail/114112) (in German) where I calculate default probabilities for the majority of German hospitals / nursing homes using financial statement data. 
+I was co-author of several [Hospital and Nursing Home Rating Reports](https://www.medhochzwei-verlag.de/Verlag/Autoren/Detail/114112) (in German) where I calculate default probabilities for the majority of German hospitals / nursing homes using financial statement data. 
