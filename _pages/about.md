@@ -11,7 +11,7 @@ Hi! I'm Johannes, a Ph.D. candidate in Economics and research assistant at Pader
 
 My research areas include applied econometrics, health and education economics. I'm particularly interested in how policy interventions can reduce inequalities and support human capital development.
 
-As part of my work in policy consulting at RWI, I have also written about health policy, especially the digitalization and the economic situation of hospitals.
+As part of my work in policy consulting at RWI, I have also written about the digitalization and the economic situation of hospitals.
 
 
 <!--
