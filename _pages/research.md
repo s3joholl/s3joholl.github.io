@@ -18,7 +18,7 @@ In preparation
 In preparation
 
 [**Retirement and Loneliness**](https://www.rwi-essen.de/fileadmin/user_upload/RWI/Publikationen/Ruhr_Economic_Papers/REP_23_1048.pdf) with Sophie Guthmuller, Dörte Heger and Anna Werbeck  
-Revise & resubmit, *Scientific Reports*
+Under review
 
 
 
