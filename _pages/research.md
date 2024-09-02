@@ -24,7 +24,7 @@ Under review
 
 ## Published and accepted Work
 
-**A nationwide digital maturity assessment of hospitals: Results from the German DigitalRadar** with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun and Alexander Haering  
+[**A nationwide digital maturity assessment of hospitals: Results from the German DigitalRadar**](https://www.sciencedirect.com/science/article/pii/S2211883724000674) with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun and Alexander Haering  
 *Health Policy and Technology*, forthcoming
 
 [**The association of hospital profitability and digital maturity – An explorative study using data from the German DigitalRadar project**](https://www.sciencedirect.com/science/article/pii/S0168851024000228) with Justus Vogel, Alexander Haering, Boris Augurzky and Alexander Geissler  
