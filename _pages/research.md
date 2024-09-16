@@ -11,8 +11,7 @@ redirect_from:
 {% include base_path %}
 
 ## Works in progress 
-**Gene-environment interactions with essential heterogeneity** with Hendrik Schmitz and Matthias Westphal  
-In preparation
+[**Gene-environment interactions with essential heterogeneity**](https://johanneshollenbach.com/files/Genes_WP_Version.pdf) with Hendrik Schmitz and Matthias Westphal 
 
 **Life-cycle Health Effects of Compulsory Schooling** with Hendrik Schmitz and Beatrice Baaba Tawiah  
 In preparation
