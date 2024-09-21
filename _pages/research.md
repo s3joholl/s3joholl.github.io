@@ -13,7 +13,7 @@ redirect_from:
 ## Works in progress 
 [**Gene-environment interactions with essential heterogeneity**](https://johanneshollenbach.com/files/Genes_WP_Version.pdf) with Hendrik Schmitz and Matthias Westphal 
 
-[**Retirement and Loneliness**](https://www.rwi-essen.de/fileadmin/user_upload/RWI/Publikationen/Ruhr_Economic_Papers/REP_23_1048.pdf) with Sophie Guthmuller, Dörte Heger and Anna Werbeck  
+[**The impact of retirement on loneliness in Europe**](https://www.rwi-essen.de/fileadmin/user_upload/RWI/Publikationen/Ruhr_Economic_Papers/REP_23_1048.pdf) with Sophie Guthmuller, Dörte Heger and Anna Werbeck  
 Under review
 
 **Life-cycle Health Effects of Compulsory Schooling** with Hendrik Schmitz and Beatrice Baaba Tawiah  
