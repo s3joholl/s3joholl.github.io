@@ -11,7 +11,7 @@ redirect_from:
 {% include base_path %}
 
 ## Works in progress 
-[**Gene-environment interactions with essential heterogeneity**](https://johanneshollenbach.com/files/Genes_WP_Version.pdf) with Hendrik Schmitz and Matthias Westphal 
+[**Gene-environment interactions with essential heterogeneity**](https://www.rwi-essen.de/fileadmin/user_upload/RWI/Publikationen/Ruhr_Economic_Papers/REP_24_1105.pdf) with Hendrik Schmitz and Matthias Westphal 
 
 [**The impact of retirement on loneliness in Europe**](https://www.rwi-essen.de/fileadmin/user_upload/RWI/Publikationen/Ruhr_Economic_Papers/REP_23_1048.pdf) with Sophie Guthmuller, Dörte Heger and Anna Werbeck  
 Under review
