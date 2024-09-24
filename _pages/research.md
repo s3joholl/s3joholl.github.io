@@ -29,11 +29,11 @@ In preparation
 
 [**A nationwide digital maturity assessment of hospitals: Results from the German DigitalRadar**](https://www.sciencedirect.com/science/article/pii/S2211883724000674)  
 with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun and Alexander Haering  
-*Health Policy and Technology*, Vol. 13(4) (September 2024)
+*Health Policy and Technology*, 2024, Vol. 13(4)
 
 [**The association of hospital profitability and digital maturity – An explorative study using data from the German DigitalRadar project**](https://www.sciencedirect.com/science/article/pii/S0168851024000228)  
 with Justus Vogel, Alexander Haering, Boris Augurzky and Alexander Geissler  
-*Health Policy*, Vol. 142 (April 2024)
+*Health Policy*, 2024, Vol. 142
 
 ## Other writing
 I was co-author of several [Hospital and Nursing Home Rating Reports](https://www.medhochzwei-verlag.de/Verlag/Autoren/Detail/114112) (in German) where I calculate default probabilities for the majority of German hospitals / nursing homes using financial statement data. 
