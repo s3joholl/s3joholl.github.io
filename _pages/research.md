@@ -12,9 +12,10 @@ redirect_from:
 
 ## Works in progress 
 [**Gene-environment interactions with essential heterogeneity**](https://www.rwi-essen.de/fileadmin/user_upload/RWI/Publikationen/Ruhr_Economic_Papers/REP_24_1105.pdf) with Hendrik Schmitz and Matthias Westphal 
+*Ruhr Economic Papers* #1105 (September 2024)
 
 [**The impact of retirement on loneliness in Europe**](https://www.rwi-essen.de/fileadmin/user_upload/RWI/Publikationen/Ruhr_Economic_Papers/REP_23_1048.pdf) with Sophie Guthmuller, Dörte Heger and Anna Werbeck  
-Under review
+*Ruhr Economic Papers* #1048 (December 2023) - under review
 
 **Life-cycle Health Effects of Compulsory Schooling** with Hendrik Schmitz and Beatrice Baaba Tawiah  
 In preparation
