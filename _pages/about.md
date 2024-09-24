@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Johannes, a Ph.D. candidate in Economics and research assistant at Paderborn University and RWI - Leibniz-Institute for Economic Research. In Fall 2024, I'll be visiting the La Follette School of Public Affairs at UW-Madison.
+Hi! I'm Johannes, a Ph.D. candidate in Economics at Paderborn University and RWI - Leibniz-Institute for Economic Research. In Fall 2024, I'll be visiting the La Follette School of Public Affairs at UW-Madison.
 
 My research areas include applied econometrics, health and education economics. I'm particularly interested in how policy interventions can shape individual decisions to reduce inequalities and support human capital development.
 
