@@ -15,17 +15,15 @@ redirect_from:
 with Hendrik Schmitz and Matthias Westphal  
 *Ruhr Economic Papers* #1105 
 
-[**The impact of retirement on loneliness in Europe**](https://www.rwi-essen.de/fileadmin/user_upload/RWI/Publikationen/Ruhr_Economic_Papers/REP_23_1048.pdf) (December 2023)  
-with Sophie Guthmuller, Dörte Heger and Anna Werbeck  
-*Ruhr Economic Papers* #1048  
-Under review
-
 **Life-cycle Health Effects of Compulsory Schooling** 
 with Hendrik Schmitz and Beatrice Baaba Tawiah  
 In preparation
 
 
 ## Published and accepted Work
+**The impact of retirement on loneliness in Europe**  
+with Sophie Guthmuller, Dörte Heger and Anna Werbeck  
+*Scientific Reports*, forthcoming - [WP version](https://www.rwi-essen.de/fileadmin/user_upload/RWI/Publikationen/Ruhr_Economic_Papers/REP_23_1048.pdf)
 
 [**A nationwide digital maturity assessment of hospitals: Results from the German DigitalRadar**](https://www.sciencedirect.com/science/article/pii/S2211883724000674)  
 with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun and Alexander Haering  
