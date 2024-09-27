@@ -15,7 +15,7 @@ redirect_from:
 with Hendrik Schmitz and Matthias Westphal  
 *Ruhr Economic Papers* #1105 
 
-**Life-cycle Health Effects of Compulsory Schooling** 
+**Life-cycle Health Effects of Compulsory Schooling**  
 with Hendrik Schmitz and Beatrice Baaba Tawiah  
 In preparation
 
