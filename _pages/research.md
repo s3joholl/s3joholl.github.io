@@ -21,10 +21,13 @@ In preparation
 
 
 ## Published and accepted work
+### Economics and general interest
 **The impact of retirement on loneliness in Europe**  
 with Sophie Guthmuller, Dörte Heger and Anna Werbeck  
 *Scientific Reports*, forthcoming - [WP version](https://www.rwi-essen.de/fileadmin/user_upload/RWI/Publikationen/Ruhr_Economic_Papers/REP_23_1048.pdf)
 
+
+### Health policy
 [**A nationwide digital maturity assessment of hospitals: Results from the German DigitalRadar**](https://www.sciencedirect.com/science/article/pii/S2211883724000674)  
 with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun and Alexander Haering  
 *Health Policy and Technology*, 2024, Vol. 13(4)
