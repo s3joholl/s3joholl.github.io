@@ -20,7 +20,7 @@ with Hendrik Schmitz and Beatrice Baaba Tawiah
 In preparation
 
 
-## Published and accepted Work
+## Published and accepted work
 **The impact of retirement on loneliness in Europe**  
 with Sophie Guthmuller, Dörte Heger and Anna Werbeck  
 *Scientific Reports*, forthcoming - [WP version](https://www.rwi-essen.de/fileadmin/user_upload/RWI/Publikationen/Ruhr_Economic_Papers/REP_23_1048.pdf)
