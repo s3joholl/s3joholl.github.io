@@ -14,6 +14,7 @@ redirect_from:
     with Hendrik Schmitz and Matthias Westphal<br>
     <i>Ruhr Economic Papers</i> #1105
 </p>
+
 <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
 <div class="abstract">
     We show that two-stage least squares (2SLS) estimates of interactions can be misleading in settings with
@@ -60,3 +61,16 @@ redirect_from:
 <p>I was co-author of several <a href="https://www.medhochzwei-verlag.de/Verlag/Autoren/Detail/114112">Hospital and
         Nursing Home Rating Reports</a> (in German) where I calculate default probabilities for the majority of German
     hospitals / nursing homes using financial statement data.</p>
+
+<script>
+    function toggleAbstract(element) {
+        var abstractDiv = element.nextElementSibling;
+        if (abstractDiv.style.display === "block") {
+            abstractDiv.style.display = "none";
+            element.innerHTML = "+ Abstract";
+        } else {
+            abstractDiv.style.display = "block";
+            element.innerHTML = "- Abstract";
+        }
+    }
+</script>
