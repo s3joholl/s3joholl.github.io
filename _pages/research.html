@@ -5,7 +5,6 @@ redirect_from:
 - /research
 ---
 
-
 {% include base_path %}
 
 <h1>Works in progress</h1>
@@ -15,8 +14,9 @@ redirect_from:
     <i>Ruhr Economic Papers</i> #1105
 </p>
 
+<!-- HTML for the abstract toggle -->
 <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
-<div class="abstract">
+<div class="abstract" style="display:none;">
     We show that two-stage least squares (2SLS) estimates of interactions can be misleading in settings with
     essential heterogeneity (e.g., selection into gains) and where complier status to the instrument depends on
     the interaction variable. The 2SLS estimator cannot disentangle interaction effects from shifts in complier
@@ -62,6 +62,7 @@ redirect_from:
         Nursing Home Rating Reports</a> (in German) where I calculate default probabilities for the majority of German
     hospitals / nursing homes using financial statement data.</p>
 
+<!-- JavaScript for toggling the abstract -->
 <script>
     function toggleAbstract(element) {
         var abstractDiv = element.nextElementSibling;
