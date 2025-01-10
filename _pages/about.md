@@ -12,3 +12,5 @@ Hi! I'm Johannes, a PhD candidate in Economics at Paderborn University and RWI -
 My research areas include applied econometrics, health and education economics. I'm interested in the role of policy interventions in shaping individual decisions related to human capital development and healthy aging.
 
 As part of my work in policy consulting at RWI, I have also written about the digitalization and the economic situation of hospitals.
+
+You can find my CV [here](https://s3joholl.github.io/files/hollenbach_cv.pdf) and contact me at johannes.hollenbach [at] rwi-essen.de.
