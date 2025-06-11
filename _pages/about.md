@@ -9,7 +9,7 @@ redirect_from:
 
 Hi! I'm Johannes, a PhD candidate in Economics at Paderborn University and RWI - Leibniz Institute for Economic Research in Essen, Germany.
 
-My research areas include applied econometrics, health, and education economics. I am broadly interested in how decisions made over the lifecycle affect healthy aging, and in the role that policy can play in supporting it. 
+My research areas include applied econometrics, health, and education economics. I am broadly interested in how decisions made over the lifecycle affect healthy aging, and in the role that policy can play in supporting it.   
 As part of my work in policy consulting at RWI, I have also written about the digitalization and the economic situation of hospitals.
 
 You can find my CV [here](https://s3joholl.github.io/files/hollenbach_cv.pdf) and contact me at johannes.hollenbach[at]rwi-essen.de.
