@@ -1,6 +1,11 @@
 ---
 ---
 
+// Turn off blue underlines for hyperlinks
+a {
+    text-decoration: none;
+}
+
 /*
  *    Minimal Mistakes Jekyll Theme
  *
@@ -41,7 +46,3 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-// Turn off blue underlines for hyperlinks
-a {
-    text-decoration: none;
-}
