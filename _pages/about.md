@@ -9,7 +9,7 @@ redirect_from:
 
 Hi! I'm Johannes, a PhD candidate in Economics at Paderborn University and a researcher at RWI - Leibniz Institute for Economic Research in Essen, Germany.
 
-My main field is health economics, with a focus on education and the economics of aging. I study how life decisions affect healthy aging and how public policy can help. More broadly, I am interested program evaluation.
+My main field is health economics, with a focus on the health effects of education and the economics of aging. I'm interested in how life decisions affect healthy aging and what public policy can do to help, as well as in program evaluation more broadly.       
 As part of my work in policy consulting at RWI, I have also written about the digitalization and the economic situation of hospitals.
 
 I was a visitor at [UW-Madison](https://isg.wisc.edu/people/) in Fall 2024. 
