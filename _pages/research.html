@@ -7,238 +7,205 @@ redirect_from:
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            /* font-family: Arial, sans-serif; */
-            /* line-height: 1.6; */
-            /* color: #333; */
-            /* max-width: 800px; */
-            margin: 0;
-            /* padding: 20px; */
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body { margin: 0; }
 
-        h1 {
-            font-size: 1.3em;
-            /* color: #000; */
-            margin-top: 40px;
-            margin-bottom: 20px;
-        }
+    h1 {
+      font-size: 1.3em;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
 
-        h2 {
-            font-size: 1.1em;
-            margin: 0;
-            /* color: #666; */
-            margin-bottom: 20px;
-            margin-top: 30px;
-        }
+    h2 {
+      font-size: 1.1em;
+      margin: 0;
+      margin-bottom: 20px;
+      margin-top: 30px;
+    }
 
-        .paper {
-            margin-bottom: 20px;
-        }
+    .paper { margin-bottom: 20px; }
+    .paper p { margin: 0; padding: 0; }
 
-        .paper p {
-            margin: 0;
-            padding: 0;
-            /* margin-bottom: 20px; */
-        }
+    .paper-title { font-weight: bold; }
 
-        .paper-title {
-            font-weight: bold;
-            margin: 0;
-            padding: 0;
-        }
+    /* Make the title look like your current bold title, but clickable */
+    .paper-title-link {
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .paper-title-link:hover,
+    .paper-title-link:focus {
+      text-decoration: underline;
+    }
 
-        .paper-info {
-            /* color: #000; */
-            margin: 0;
-            padding: 0;
-        }
+    .abstract-toggle { cursor: pointer; }
 
-        .abstract-toggle {
-            cursor: pointer;
-            /* color: #000; */
-        }
-
-        .abstract {
-            display: none;
-            background-color: #f9f9f9;
-            padding: 10px;
-            border-left: 3px solid #000;
-            margin-top: 10px;
-            text-align: justify;
-            font-size: 0.9em;
-        }
-    </style>
+    .abstract {
+      display: none;
+      background-color: #f9f9f9;
+      padding: 10px;
+      border-left: 3px solid #000;
+      margin-top: 10px;
+      text-align: justify;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 
 <body>
-    <h1 style="margin-top: 0;">Work in Progress</h1>
+  <h1 style="margin-top: 0;">Work in Progress</h1>
 
-    <div class="paper">
-        <p class="paper-title">Gene-Environment Interactions with Essential Heterogeneity</p>
-        <p class="paper-info">with Hendrik Schmitz and Matthias Westphal</p>
-        <p>Conditionally accepted, <i>The Economic Journal</i></p>
-        <p><a href="https://s3joholl.github.io/files/genes_accepted_version.pdf">Manuscript</a></p>
-        <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
-        <div class="abstract">
-            We study how gene-environment interactions between education and genetic endowments affect cognition in old age and use this setting to show that – even with a valid instrument – two-stage least squares (2SLS) estimates of interaction effects can be far away from the true effect. This is the case when treatment effects are heterogeneous and compliance to the instrument depends on the interaction variable. We suggest estimating marginal treatment effects to address this problem. Our estimation results show complementarities between education and genetic predisposition in determining later-life memory. The marginal treatment effect estimates suggest substantially larger gene-environment interactions than the 2SLS estimates.
-        </div>
+  <div class="paper">
+    <p class="paper-title">
+      <a class="paper-title-link" href="https://s3joholl.github.io/files/genes_accepted_version.pdf">
+        Gene-Environment Interactions with Essential Heterogeneity
+      </a>
+    </p>
+    <p class="paper-info">with Hendrik Schmitz and Matthias Westphal</p>
+    <p>Conditionally accepted, <i>The Economic Journal</i></p>
+    <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
+    <div class="abstract">
+      We study how gene-environment interactions between education and genetic endowments affect cognition in old age and
+      use this setting to show that – even with a valid instrument – two-stage least squares (2SLS) estimates of
+      interaction effects can be far away from the true effect. This is the case when treatment effects are heterogeneous
+      and compliance to the instrument depends on the interaction variable. We suggest estimating marginal treatment
+      effects to address this problem. Our estimation results show complementarities between education and genetic
+      predisposition in determining later-life memory. The marginal treatment effect estimates suggest substantially
+      larger gene-environment interactions than the 2SLS estimates.
     </div>
+  </div>
 
-    <div class="paper">
-        <p class="paper-title">Life-cycle Health Effects of Compulsory Schooling</p>
-        <p class="paper-info">with Hendrik Schmitz and Beatrice Tawiah</p>
-        <p>Accepted, <i>European Journal of Health Economics</i></p>
-        <p><a href="https://s3joholl.github.io/files/education_lifecycle_effects.pdf">Manuscript</a></p>
-        <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
-        <div class="abstract">
-            We study the effect of education on health (hospital stays, number of diagnosed conditions, self-rated poor
-            health, and obesity) over the life-cycle using German compulsory schooling reforms as a source of exogenous
-            variation. Our results show clear correlations between educational attainment and better health across all
-            age groups (30 to 79). However, we do not find causal effects of an additional year of schooling on health
-            or health care utilization, neither earlier, nor later in life. One reason for this may be that while the
-            compulsory schooling reforms succeeded in raising the educational attainment of those that were targeted —
-            individuals at the lowest education margin — they did not result in healthier employment opportunities.
-        </div>
+  <div class="paper">
+    <p class="paper-title">
+      <a class="paper-title-link" href="https://s3joholl.github.io/files/education_lifecycle_effects.pdf">
+        Life-cycle Health Effects of Compulsory Schooling
+      </a>
+    </p>
+    <p class="paper-info">with Hendrik Schmitz and Beatrice Tawiah</p>
+    <p>Accepted, <i>European Journal of Health Economics</i></p>
+    <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
+    <div class="abstract">
+      We study the effect of education on health (hospital stays, number of diagnosed conditions, self-rated poor health,
+      and obesity) over the life-cycle using German compulsory schooling reforms as a source of exogenous variation. Our
+      results show clear correlations between educational attainment and better health across all age groups (30 to 79).
+      However, we do not find causal effects of an additional year of schooling on health or health care utilization,
+      neither earlier, nor later in life. One reason for this may be that while the compulsory schooling reforms
+      succeeded in raising the educational attainment of those that were targeted — individuals at the lowest education
+      margin — they did not result in healthier employment opportunities.
     </div>
+  </div>
 
+  <h1>Journal Articles</h1>
+  <h2>Economics and General Interest</h2>
 
-    <h1>Journal Articles</h1>
-
-        <h2>Economics and General Interest</h2>
-  
-
-
-    <div class="paper">
-        <p class="paper-title">The Impact of Retirement on Loneliness in Europe</p>
-        <p class="paper-info">with Sophie Guthmuller, Dörte Heger and Anna Werbeck</p>
-        <p><i>Scientific Reports</i>, 2024, Vol. 14, Article number: 26971</p>
-        <p><a href="https://www.nature.com/articles/s41598-024-74692-y">Article</a></p>
-        <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
-        <div class="abstract">
-            This article investigates the short- and long-term impacts of retirement on loneliness using panel data from
-            the Survey of Health, Aging, and Retirement in Europe. To identify causal effects, we exploit differences in
-            retirement rules across and within countries and use retirement thresholds in an instrumental variable
-            setting. On average, we find that entering retirement leads to a reduction in loneliness in the long run and
-            no clear effect in the short run. The reduction is driven by individuals being less likely to feel socially
-            isolated and lacking companionship. Our results suggest that individuals adapt to retirement by increasing
-            their activity levels and reap the benefits in terms of reduced loneliness and social isolation. The
-            heterogeneity analysis shows that this is particularly true among the higher educated. The heterogeneity
-            analysis also reveals that retirement increases feelings of loneliness for women in the short term and that
-            the effect seems to be driven by women lacking companionship when their partner is not yet retired.
-        </div>
+  <div class="paper">
+    <p class="paper-title">
+      <a class="paper-title-link" href="https://www.nature.com/articles/s41598-024-74692-y">
+        The Impact of Retirement on Loneliness in Europe
+      </a>
+    </p>
+    <p class="paper-info">with Sophie Guthmuller, Dörte Heger and Anna Werbeck</p>
+    <p><i>Scientific Reports</i>, 2024, Vol. 14, Article number: 26971</p>
+    <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
+    <div class="abstract">
+      This article investigates the short- and long-term impacts of retirement on loneliness using panel data from the
+      Survey of Health, Aging, and Retirement in Europe. To identify causal effects, we exploit differences in retirement
+      rules across and within countries and use retirement thresholds in an instrumental variable setting. On average, we
+      find that entering retirement leads to a reduction in loneliness in the long run and no clear effect in the short
+      run. The reduction is driven by individuals being less likely to feel socially isolated and lacking companionship.
+      Our results suggest that individuals adapt to retirement by increasing their activity levels and reap the benefits
+      in terms of reduced loneliness and social isolation. The heterogeneity analysis shows that this is particularly
+      true among the higher educated. The heterogeneity analysis also reveals that retirement increases feelings of
+      loneliness for women in the short term and that the effect seems to be driven by women lacking companionship when
+      their partner is not yet retired.
     </div>
+  </div>
 
-    
-    <h2>Health Policy</h2>
+  <h2>Health Policy</h2>
 
-    <div class="paper">
-        <p class="paper-title">A Nationwide Digital Maturity Assessment of Hospitals: Results From the German DigitalRadar</p>
-        <p class="paper-info">with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun, and Alexander Haering</p>
-        <p><i>Health Policy and Technology</i>, 2024, Vol. 13(4)</p>
-        <p><a href="https://www.sciencedirect.com/science/article/pii/S2211883724000674">Article</a></p>
-        <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
-        <div class="abstract">
-            In 2019, the German government established the Hospital Future Fund, allocating 4.3 billion Euros, to
-            support investments in the digital infrastructure of hospitals. The DigitalRadar consortium was commissioned
-            by the German Ministry of Health in 2020 to develop a holistic digital maturity model and evaluate the
-            current state of digitalization and the impact of the funding program. To date, the nationwide
-            digitalization of German hospitals has remained a relatively understudied phenomenon. This study aims to
-            address this gap in knowledge by examining the influence of various factors identified by the DigitalRadar
-            maturity model on the digital maturity of hospitals in Germany. In doing so, it seeks to elucidate the
-            implications these findings have for the development of a digital, patient-centred, safe, and high-quality
-            hospital landscape in the country.
-            The model was developed through a scoping review of digital maturity models, requirements set forth in the
-            Hospital Future Act, analysis of components from existing models and feedback from a sounding board.
-            Ultimately, the model includes 234 questions (items) categorized into 7 dimensions of digitalization. It was
-            piloted in 12 hospitals and revised accordingly. 1,624 hospitals (91% of all German hospitals) participated
-            in this self-assessment, as participation was mandatory to receive funding.
-            The average DigitalRadar score on a 100-point scale is 33. Maturity is comparatively high in the structures
-            and systems dimension, but low in the clinical processes, exchange of information, telemedicine and patient
-            participation dimensions, suggesting that data exchange is hampered by a lack of interoperability. Drivers
-            of digital maturity are teaching status, size, connectivity, and level of emergency services.
-            The transparency gained allows hospitals and regulators to identify areas for improvement and develop
-            digital strategies. Additionally, it enables researchers to analyse, for example, the correlation between
-            digitalization and the quality of care, as well as the mechanisms of action of large-scale funding programs
-            for hospital digitization.
-        </div>
+  <div class="paper">
+    <p class="paper-title">
+      <a class="paper-title-link" href="https://www.sciencedirect.com/science/article/pii/S2211883724000674">
+        A Nationwide Digital Maturity Assessment of Hospitals: Results From the German DigitalRadar
+      </a>
+    </p>
+    <p class="paper-info">
+      with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun, and Alexander Haering
+    </p>
+    <p><i>Health Policy and Technology</i>, 2024, Vol. 13(4)</p>
+    <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
+    <div class="abstract">
+      In 2019, the German government established the Hospital Future Fund, allocating 4.3 billion Euros, to support
+      investments in the digital infrastructure of hospitals. The DigitalRadar consortium was commissioned by the German
+      Ministry of Health in 2020 to develop a holistic digital maturity model and evaluate the current state of
+      digitalization and the impact of the funding program. To date, the nationwide digitalization of German hospitals
+      has remained a relatively understudied phenomenon. This study aims to address this gap in knowledge by examining
+      the influence of various factors identified by the DigitalRadar maturity model on the digital maturity of hospitals
+      in Germany. In doing so, it seeks to elucidate the implications these findings have for the development of a
+      digital, patient-centred, safe, and high-quality hospital landscape in the country. The model includes 234
+      questions categorized into 7 dimensions of digitalization. 1,624 hospitals (91% of all German hospitals)
+      participated. The average DigitalRadar score is 33 on a 100-point scale. Drivers include teaching status, size,
+      connectivity, and level of emergency services.
     </div>
+  </div>
 
-    <div class="paper">
-        <p class="paper-title">The Association of Hospital Profitability and Digital Maturity – An Explorative Study Using Data From the German DigitalRadar Project</p>
-        <p class="paper-info">with Justus Vogel, Alexander Haering, Boris Augurzky, and Alexander Geissler</p>
-        <p><i>Health Policy</i>, 2024, Vol. 142</p>
-        <p><a href="https://www.sciencedirect.com/science/article/pii/S0168851024000228">Article</a></p>
-        <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
-        <div class="abstract">
-            German hospitals largely rely on public investments for digitization. As these have been insufficient,
-            hospitals had to use own profits to foster digital transformation. Thus, we assess if profitability affects
-            digital maturity, and what other factors might be influential.
-            We use digital maturity data from the DigitalRadar (DR) project (2021) and financial statement data from the
-            Hospital Rating Report from 2017 to 2019 (n = 860). We run linear regressions with the DR-score (continuous
-            variable from 0 to 100) as dependent and three-year average EBITDA margin as independent variable. Besides,
-            we conduct subgroup analyses stratifying by chain size.
-            A one percentage point EBITDA margin increase is associated with a 0.359 points DR-score increase.
-            This relationship holds in significance and holds or increases in magnitude for all specifications
-            except when adding chain beds (0.212 point DR-score increase). Besides, chain membership and
-            chain size are positively and significantly associated with hospitals’ DR-score. EBITDA margins of the
-            subgroups “large chains” and “Big 3″, i.e., the three largest chains, were strongly associated with the
-            DR-score (2.685 and 3.197 points DR-score increase respectively). Conclusions Higher
-            profitability is associated with higher digital maturity. Larger chains are digitally more mature,
-            because (1) they might follow a chain-wide IT-strategy, (2) can standardize IT-architecture, and
-            policies and (3) might cross-finance investments.
-        </div>
+  <div class="paper">
+    <p class="paper-title">
+      <a class="paper-title-link" href="https://www.sciencedirect.com/science/article/pii/S0168851024000228">
+        The Association of Hospital Profitability and Digital Maturity – An Explorative Study Using Data From the German DigitalRadar Project
+      </a>
+    </p>
+    <p class="paper-info">with Justus Vogel, Alexander Haering, Boris Augurzky, and Alexander Geissler</p>
+    <p><i>Health Policy</i>, 2024, Vol. 142</p>
+    <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
+    <div class="abstract">
+      German hospitals largely rely on public investments for digitization. As these have been insufficient, hospitals
+      had to use own profits to foster digital transformation. Thus, we assess if profitability affects digital maturity,
+      and what other factors might be influential. We use DigitalRadar data (2021) and financial statement data (2017 to
+      2019, n = 860). A one percentage point EBITDA margin increase is associated with a 0.359 points DR-score increase.
+      Chain membership and chain size are positively associated with DR-score.
     </div>
+  </div>
 
+  <h1>Book Chapters</h1>
 
-
-<h1>Book Chapters</h1>
-
- <div class="paper">
-        <p class="paper-title">Digital Maturity Data: Extracting Insights for Health System Management</p>
-        <p class="paper-info">with Justus Vogel, Alexander Haering, David Ehlig, and Alexander Geissler</p>
-        <p>In <i>Digital Maturity in Hospitals: Strategies, Frameworks, and Global Case Studies to Shape Future Healthcare</i> (pp. 43-54). Cham: Springer Nature Switzerland.</p>
-        <p><a href="https://link.springer.com/chapter/10.1007/978-3-031-80704-6_4">Chapter</a></p>
-        <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
-        <div class="abstract">
-            With the Hospital Future Act, the German government has initiated a nationwide investment program of more than € 4.3 bn to increase the digital maturity of the country’s hospitals. As part of this program, an evaluation project called “DigitalRadar” has been set up. The evaluation goal is to assess whether the funding achieved its goal to increase hospitals’ digital maturity. To this end, the DigitalRadar project consortium has developed a digital maturity measure, the DigitalRadar score (DR-score). The DR-score is continuously scaled between 0 (not digitized) and 100 (fully digitized), providing detailed insights into hospitals’ digital maturity.   
-            The DR-score allows for detailed analyses yielding different kinds of insights for health care provision and health system management: For instance,
-            <ol>
-                <li>transparency of a hospital’s digital maturity,</li>
-                <li>the association of hospital profitability and digital maturity, and</li>
-                <li>the relationship between digital maturity and hospital quality.</li>
-            </ol>
-            Regarding (1), the transparency of hospitals’ digital maturity, the DR-score can be used to understand whether the investment in hospital digitalization from the Hospital Future Act has actually increased digital maturity. Moreover, analyses can reveal what specific aspects of hospital digitalization, e.g., clinical processes or medication management, are more or less developed than others.   
-            To investigate the relationship between digital maturity and (2) profitability or (3) hospital quality, the DR dataset needs to be matched to other datasets, e.g., structured hospital quality report cards. In this article, we describe the commonly used approach for matching hospitals and hospital sites with unique hospital identifiers and site numbers in German secondary datasets. Furthermore, we provide an overview of our findings from two studies investigating the relationship between profitability and digitalization as well as between digitalization and quality.   
-            In the first study, we find a positive, statistically significant relationship between profitability and digital maturity, i.e., more profitable hospitals are digitally more mature. More importantly, membership in a large hospital chain is associated with significantly higher DR-scores. Regarding quality, there is no consistent correlation between digitalization and quality for the two process quality indicators, and only a weak association for the two outcome quality indicators selected for investigation. We plan to challenge these findings and to investigate the effect from within hospital changes in digital maturity on provider quality using longitudinal data once the second measurement period for the DR-score will be completed in the second half of 2024.   
-            To support the generation of insights from digital maturity data for health system management, data quality must improve for matching datasets and for investigating the relationship between digital maturity, hospital profitability, and quality. Researchers must have access to nationwide databases containing financial statement data and quality indicators. Lastly, the digital maturity of hospitals must be measured continuously to monitor whether digitalization will reach its goal in increasing quality and decreasing cost of care.
-        </div>
+  <div class="paper">
+    <p class="paper-title">
+      <a class="paper-title-link" href="https://link.springer.com/chapter/10.1007/978-3-031-80704-6_4">
+        Digital Maturity Data: Extracting Insights for Health System Management
+      </a>
+    </p>
+    <p class="paper-info">with Justus Vogel, Alexander Haering, David Ehlig, and Alexander Geissler</p>
+    <p>
+      In <i>Digital Maturity in Hospitals: Strategies, Frameworks, and Global Case Studies to Shape Future Healthcare</i>
+      (pp. 43-54). Cham: Springer Nature Switzerland.
+    </p>
+    <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
+    <div class="abstract">
+      With the Hospital Future Act, the German government has initiated a nationwide investment program of more than €
+      4.3 bn to increase the digital maturity of the country’s hospitals. As part of this program, an evaluation project
+      called “DigitalRadar” has been set up. The evaluation goal is to assess whether the funding achieved its goal to
+      increase hospitals’ digital maturity. To this end, the DigitalRadar project consortium has developed a digital
+      maturity measure, the DigitalRadar score (DR-score)...
+      <ol>
+        <li>transparency of a hospital’s digital maturity,</li>
+        <li>the association of hospital profitability and digital maturity, and</li>
+        <li>the relationship between digital maturity and hospital quality.</li>
+      </ol>
+      ...
     </div>
+  </div>
 
-
-<!-- 
-    <h1>Other Writing</h1>
-    <p>I was co-author of several <a href="https://www.medhochzwei-verlag.de/Verlag/Autoren/Detail/114112">Hospital
-            and
-            Nursing Home Rating Reports</a> (in German) where I calculate default probabilities for the majority of
-        German hospitals and nursing homes using financial statement data.</p>
-   -->
-    <script>
-        function toggleAbstract(element) {
-            var abstract = element.nextElementSibling;
-            if (abstract.style.display === "none" || abstract.style.display === "") {
-                abstract.style.display = "block";
-                element.textContent = "- Abstract";
-            } else {
-                abstract.style.display = "none";
-                element.textContent = "+ Abstract";
-            }
-        }
-    </script>
+  <script>
+    function toggleAbstract(element) {
+      const abstract = element.nextElementSibling;
+      const isOpen = abstract.style.display === "block";
+      abstract.style.display = isOpen ? "none" : "block";
+      element.textContent = isOpen ? "+ Abstract" : "- Abstract";
+    }
+  </script>
 </body>
-
 </html>
