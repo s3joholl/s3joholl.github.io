@@ -5,6 +5,7 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
+  font-size: 16px; /* base size – em breakpoints still resolve against this */
 }
 
 body {
@@ -14,6 +15,8 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -26,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
+  letter-spacing: -0.015em;
 }
 
 h1 {

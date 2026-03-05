@@ -17,39 +17,98 @@ redirect_from:
       font-size: 1.3em;
       margin-top: 40px;
       margin-bottom: 20px;
+      letter-spacing: -0.015em;
     }
 
     h2 {
-      font-size: 1.1em;
+      font-size: 1.05em;
       margin: 0;
-      margin-bottom: 20px;
-      margin-top: 30px;
+      margin-bottom: 10px;
+      margin-top: 22px;
+      letter-spacing: -0.01em;
+      color: #1d1d1f;
     }
 
-    .paper { margin-bottom: 20px; }
+    .paper {
+      margin-bottom: 12px;
+      margin-right: 1.5rem;
+      padding: 14px 18px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+      border: 1px solid rgba(0, 0, 0, 0.06);
+      transition: box-shadow 0.25s ease;
+    }
+    .paper:hover {
+      box-shadow: 0 4px 28px rgba(0, 0, 0, 0.10);
+    }
     .paper p { margin: 0; padding: 0; }
 
     .paper-title { font-weight: bold; }
 
     .paper-title-link {
-      font-weight: bold;
+      font-weight: 600;
       text-decoration: none;
+      color: #1d1d1f;
     }
     .paper-title-link:hover,
     .paper-title-link:focus {
-      text-decoration: underline;
+      color: #2060a8;
     }
 
-    .abstract-toggle { cursor: pointer; }
+    .paper-info {
+      color: #505055;
+      font-size: 0.9em;
+      margin-top: 5px !important;
+    }
+
+    .paper p + p {
+      margin-top: 3px !important;
+      color: #505055;
+      font-size: 0.9em;
+    }
+
+    .paper-journal {
+      display: inline-block;
+      margin-top: 8px !important;
+      padding: 3px 10px;
+      background: rgba(32, 96, 168, 0.08);
+      color: #2060a8;
+      font-size: 0.82em;
+      font-style: normal;
+      font-weight: 500;
+      border-radius: 20px;
+      letter-spacing: 0.01em;
+    }
+    .paper-journal i {
+      font-style: italic;
+    }
+
+    .abstract-toggle {
+      cursor: pointer;
+      display: block;       /* forces new line below the journal pill */
+      color: #2060a8;
+      font-size: 0.85em;
+      font-weight: 500;
+      margin-top: 10px !important;
+      -webkit-user-select: none;
+              user-select: none;
+    }
+    .abstract-toggle:hover {
+      color: #154680;
+    }
 
     .abstract {
       display: none;
-      background-color: #f9f9f9;
-      padding: 10px;
-      border-left: 3px solid #000;
-      margin-top: 10px;
+      background-color: #f5f5f7;
+      padding: 14px 18px;
+      border-left: 3px solid #2060a8;
+      border-radius: 0 8px 8px 0;
+      margin-top: 12px;
       text-align: justify;
-      font-size: 0.9em;
+      font-size: 0.875em;
+      line-height: 1.65;
+      color: #2c2c2e;
     }
   </style>
 </head>
@@ -69,7 +128,7 @@ Updates coming soon.
       </a>
     </p>
     <p class="paper-info">with Hendrik Schmitz and Matthias Westphal</p>
-    <p><i>The Economic Journal</i>, forthcoming</p>
+    <p class="paper-journal"><i>The Economic Journal</i>, forthcoming</p>
     <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
     <div class="abstract">
       We study how gene-environment interactions between education and genetic endowments affect cognition in old age and
@@ -89,7 +148,7 @@ Updates coming soon.
       </a>
     </p>
     <p class="paper-info">with Hendrik Schmitz and Beatrice Tawiah</p>
-    <p><i>The European Journal of Health Economics</i>, forthcoming</p>
+    <p class="paper-journal"><i>The European Journal of Health Economics</i>, forthcoming</p>
     <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
     <div class="abstract">
       We study the effect of education on health (hospital stays, number of diagnosed conditions, poor or bad self-rated health, and body mass index) over the life cycle, using German compulsory schooling reforms as a source of exogenous variation. Our results show clear correlations between educational attainment and better health across all age groups (30 to 74). However, we do not find causal relationships between additional schooling and health or health care utilization, neither earlier nor later in life. A simulated ex-post power analysis shows that this is not due to a lack of statistical power. One reason for the absence of effects may be that the studied compulsory schooling reforms succeeded in raising the educational attainment of the target group - individuals at the lowest educational margin - but did not lead to healthier employment opportunities.
@@ -104,7 +163,7 @@ Updates coming soon.
       </a>
     </p>
     <p class="paper-info">with Sophie Guthmuller, Dörte Heger and Anna Werbeck</p>
-    <p><i>Scientific Reports</i>, 2024, Vol. 14, Article number: 26971</p>
+    <p class="paper-journal"><i>Scientific Reports</i>, 2024, Vol. 14, Article number: 26971</p>
     <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
     <div class="abstract">
       This article investigates the short- and long-term impacts of retirement on loneliness using panel data from the
@@ -133,7 +192,7 @@ Updates coming soon.
     <p class="paper-info">
       with Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun, and Alexander Haering
     </p>
-    <p><i>Health Policy and Technology</i>, 2024, Vol. 13(4)</p>
+    <p class="paper-journal"><i>Health Policy and Technology</i>, 2024, Vol. 13(4)</p>
     <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
     <div class="abstract">
       In 2019, the German government established the Hospital Future Fund, allocating 4.3 billion Euros, to support
@@ -157,7 +216,7 @@ Updates coming soon.
       </a>
     </p>
     <p class="paper-info">with Justus Vogel, Alexander Haering, Boris Augurzky, and Alexander Geissler</p>
-    <p><i>Health Policy</i>, 2024, Vol. 142</p>
+    <p class="paper-journal"><i>Health Policy</i>, 2024, Vol. 142</p>
     <p class="abstract-toggle" onclick="toggleAbstract(this)">+ Abstract</p>
     <div class="abstract">
       German hospitals largely rely on public investments for digitization. As these have been insufficient, hospitals

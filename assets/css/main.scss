@@ -46,3 +46,143 @@ a {
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+// ============================================================
+// Apple-inspired visual refinements
+// ============================================================
+
+// Refined nav underline
+.greedy-nav .visible-links a:before {
+  background: #2060a8;
+}
+
+// Masthead link padding & spacing
+.greedy-nav a {
+  padding: 0.6rem 0;
+  font-size: 0.95em;
+  letter-spacing: -0.01em;
+}
+
+// Author profile: center name + bio under photo on large screens
+.author__avatar {
+  text-align: center;
+}
+
+.author__content {
+  text-align: center;
+}
+
+// Author name: larger and prominent
+.author__name {
+  font-size: 1.2em;    // ~18px at 15px base
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+// Page title on About: keep large
+.page__title {
+  font-size: 1.7em;    // ~25.5px at 15px base
+}
+
+// Author bio: readable subtitle size, slightly muted
+.author__bio {
+  color: #505055;
+  font-size: 1.15em;
+  line-height: 1.5;
+}
+
+// Apple-style subtle footer
+.page__footer {
+  background-color: #f5f5f7;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+// Content area top spacing
+#main {
+  margin-top: 2.5em;
+}
+
+// Muted steel-blue links in content
+.page__content a {
+  color: #2060a8;
+  -webkit-transition: color 0.2s ease;
+          transition: color 0.2s ease;
+
+  &:hover {
+    color: #154680;
+  }
+}
+
+// Refined h2 border in page content
+.page__content h2 {
+  border-bottom-color: rgba(0, 0, 0, 0.08);
+}
+
+// ============================================================
+// Monochrome, modern social icons (Apple-style)
+// ============================================================
+
+// Override all brand colors – single dark tone, blue on hover
+.social-icons {
+  [class*="fa-"],
+  .ai {
+    color: #2c2c2e !important;
+    -webkit-transition: color 0.2s ease !important;
+            transition: color 0.2s ease !important;
+  }
+
+  a:hover [class*="fa-"],
+  a:hover .ai {
+    color: #2060a8 !important;
+  }
+}
+
+// Center the icon list to align with the centered name/bio above it
+.author__urls-wrapper {
+  text-align: center;
+}
+
+// Uniform size & spacing for all sidebar link items
+.author__urls {
+  display: inline-block;  // shrinks to content; centered by parent text-align
+  text-align: left;       // items stay left-aligned within the block
+
+  li {
+    font-size: 0.82em;
+    letter-spacing: 0.005em;
+    line-height: 1.4;   // was 1.8 – much tighter now
+    color: #2c2c2e;
+
+    // Normalize icon width for non-linked items (e.g. location)
+    > i {
+      display: inline-block;
+      width: 1.25em;
+      text-align: center;
+      font-size: 1em;
+    }
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #2c2c2e;
+    -webkit-transition: color 0.2s ease;
+            transition: color 0.2s ease;
+
+    &:hover {
+      color: #2060a8;
+      text-decoration: none;
+    }
+
+    i {
+      display: inline-block;
+      width: 1.25em;
+      text-align: center;
+      font-size: 1em;
+      flex-shrink: 0;
+    }
+  }
+}
+

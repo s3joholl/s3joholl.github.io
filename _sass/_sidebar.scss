@@ -85,10 +85,19 @@
   img {
     max-width: 175px;
     border-radius: 50%;
+    -webkit-transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 4px;
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    &:hover {
+      -webkit-transform: scale(1.03);
+              transform: scale(1.03);
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
     }
   }
 }
