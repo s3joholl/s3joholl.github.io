@@ -136,16 +136,8 @@ a {
   }
 }
 
-// Center the icon list to align with the centered name/bio above it
-.author__urls-wrapper {
-  text-align: center;
-}
-
 // Uniform size & spacing for all sidebar link items
 .author__urls {
-  display: inline-block;  // shrinks to content; centered by parent text-align
-  text-align: left;       // items stay left-aligned within the block
-
   li {
     font-size: 0.82em;
     letter-spacing: 0.005em;
