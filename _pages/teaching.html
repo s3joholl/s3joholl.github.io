@@ -8,53 +8,151 @@ redirect_from:
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teaching and Supervision</title>
-    <!--
-    <style>
-        body {
-            font-size: 14px;
-            /* Adjust the base font size for all text */
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    .teaching-intro {
+      font-size: 1.05em;
+      line-height: 1.7;
+      color: #505055;
+      max-width: 640px;
+      margin-bottom: 2.5em;
+    }
 
-        h2 {
-            font-size: 18px;
-            /* Smaller size for headers */
-            margin-top: 20px;
-        }
+    .teaching-section {
+      margin-bottom: 3em;
+    }
 
-        p,
-        li {
-            font-size: 12px;
-            /* Smaller size for paragraphs and list items */
-            margin-bottom: 10px;
-        }
-    </style>
-    -->
+    .teaching-section-title {
+      font-size: 1.3em;
+      font-weight: bold;
+      letter-spacing: -0.015em;
+      color: #1d1d1f;
+      margin: 0 0 1.5em 0;
+      padding-bottom: 0.5em;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    }
+
+    .institution {
+      margin-bottom: 2em;
+    }
+
+    .institution-name {
+      font-size: 1.05em;
+      font-weight: 600;
+      color: #1d1d1f;
+      letter-spacing: -0.01em;
+      margin: 0 0 0.75em 0;
+    }
+
+    .course {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 0.6em 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+      gap: 1em;
+    }
+
+    .course:last-child {
+      border-bottom: none;
+    }
+
+    .course-name {
+      font-size: 0.95em;
+      color: #1d1d1f;
+      font-weight: 400;
+    }
+
+    .course-level {
+      display: inline-block;
+      font-size: 0.78em;
+      font-weight: 500;
+      color: #2060a8;
+      background: rgba(32, 96, 168, 0.08);
+      padding: 2px 8px;
+      border-radius: 20px;
+      margin-left: 0.5em;
+      white-space: nowrap;
+      vertical-align: middle;
+    }
+
+    .course-term {
+      font-size: 0.85em;
+      color: #505055;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .supervision-text {
+      font-size: 1em;
+      line-height: 1.7;
+      color: #1d1d1f;
+      max-width: 640px;
+    }
+
+    .supervision-highlight {
+      font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+      .course {
+        flex-direction: column;
+        gap: 0.2em;
+      }
+
+      .course-term {
+        font-size: 0.82em;
+      }
+    }
+  </style>
 </head>
 
 <body>
+  <p class="teaching-intro">
+    I have served as a teaching assistant in applied economics and statistics at the undergraduate and graduate level, and supervise empirical theses in health and behavioral economics.
+  </p>
 
-    <h2>Teaching Assistance</h2>
+  <div class="teaching-section">
+    <h1 class="teaching-section-title">Teaching Assistance</h1>
 
-    <h3>Paderborn University</h3>
-    <ul>
-        <li>Statistics (undergrad), Summer 2025</li>
-        <li>Microeconometrics (graduate), Summer 2024, Summer 2025</li>
-        <li>Empirical Economics (undergrad), Summer 2024</li>
-    </ul>
+    <div class="institution">
+      <h2 class="institution-name">Paderborn University</h2>
 
-    <h3>University of Duisburg-Essen</h3>
-    <ul>
-        <li>Health Care Systems (graduate), Summer 2024</li>
-    </ul>
+      <div class="course">
+        <span class="course-name">Microeconometrics <span class="course-level">Graduate</span></span>
+        <span class="course-term">Summer 2024, Summer 2025</span>
+      </div>
 
-    <h2>Supervision</h2>
-    <p>So far, I've supervised four empirical Master theses in health and behavioral economics at Paderborn University.</p>
+      <div class="course">
+        <span class="course-name">Statistics <span class="course-level">Undergraduate</span></span>
+        <span class="course-term">Summer 2025</span>
+      </div>
+
+      <div class="course">
+        <span class="course-name">Empirical Economics <span class="course-level">Undergraduate</span></span>
+        <span class="course-term">Summer 2024</span>
+      </div>
+    </div>
+
+    <div class="institution">
+      <h2 class="institution-name">University of Duisburg-Essen</h2>
+
+      <div class="course">
+        <span class="course-name">Health Care Systems <span class="course-level">Graduate</span></span>
+        <span class="course-term">Summer 2024</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="teaching-section">
+    <h1 class="teaching-section-title">Thesis Supervision</h1>
+
+    <p class="supervision-text">
+      I have supervised <span class="supervision-highlight">four Master's theses</span> in empirical health and behavioral economics at Paderborn University.
+    </p>
+  </div>
 
 </body>
-
 </html>
