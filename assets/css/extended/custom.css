@@ -15,7 +15,7 @@
     text-decoration: underline;
 }
 .paper-meta {
-    color: var(--secondary);
+    color: var(--primary);
     font-size: 0.9em;
     margin-top: 2px;
 }
@@ -28,11 +28,11 @@
 .paper-abstract summary {
     cursor: pointer;
     font-size: 0.85em;
-    color: var(--secondary);
+    color: var(--primary);
     width: fit-content;
 }
 .paper-abstract summary:hover {
-    color: var(--primary);
+    color: var(--darkcolor);
 }
 .post-content .paper-abstract p {
     font-size: 0.9em;
@@ -40,6 +40,28 @@
     margin: 8px 0 2px;
     text-align: justify;
 }
-.paper-note {
-    color: var(--secondary);
+.post-content .paper-note {
+    font-size: 0.9em;
+}
+
+/* Page titles in the accent color */
+.post-title {
+    color: var(--darkcolor);
+}
+
+/* Home page bio: paragraph spacing and visible links */
+.profile_inner span p {
+    margin: 0;
+}
+.profile_inner span p + p {
+    margin-top: 12px;
+}
+.profile_inner span a {
+    text-decoration: underline;
+    text-decoration-color: var(--darkcolor);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+.profile_inner span a:hover {
+    color: var(--darkcolor);
 }

@@ -49,7 +49,10 @@ params:
     profileMode:
           enabled: true
           title: Johannes Hollenbach
-          subtitle: "I am a PhD candidate in Economics at Paderborn University and a researcher at RWI - Leibniz Institute for Economic Research in Essen, Germany. My main fields are applied econometrics and health economics, with a focus on health effects of education, the economics of aging, and social science genetics. I was a visitor at [UW-Madison](https://isg.wisc.edu/people/) in Fall 2024 and at [WU Vienna](https://www.wu.ac.at/en/institute-for-social-policy/) in Fall 2021."
+          subtitle: |-
+            I am a PhD candidate in Economics at Paderborn University and a researcher at RWI - Leibniz Institute for Economic Research in Essen, Germany. My main fields are applied econometrics and health economics, with a focus on health effects of education, the economics of aging, and social science genetics.
+
+            I was a visitor at [UW-Madison](https://isg.wisc.edu/people/) in Fall 2024 and at [WU Vienna](https://www.wu.ac.at/en/institute-for-social-policy/) in Fall 2021.
           imageUrl: images/profile_picture.jpg
           imageWidth: 160
           imageHeight: 160
@@ -62,8 +65,6 @@ params:
               url: files/hollenbach_cv.pdf
 
     socialIcons:
-        - name: CV
-          url: files/hollenbach_cv.pdf
         - name: Email
           url: mailto:johannes.hollenbach@rwi-essen.de
         - name: Google Scholar

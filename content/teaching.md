@@ -4,7 +4,7 @@ description: "Teaching and thesis supervision by Johannes Hollenbach."
 hideMeta: true
 ---
 
-## Teaching Assistance
+## Courses
 
 {{< teaching >}}
 
