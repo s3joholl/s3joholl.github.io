@@ -1,5 +1,5 @@
 baseURL: "https://johanneshollenbach.com/"
-title: Moritz-Maria von Igelfeld
+title: Johannes Hollenbach
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -12,25 +12,19 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
+        - name: Research
+          url: research/
+          weight: 1
+        - name: Teaching
+          url: teaching/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: CV
+          url: files/hollenbach_cv.pdf
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "Personal website of Johannes Hollenbach, economist at RWI - Leibniz Institute for Economic Research: research papers, teaching, CV, and contact information."
+    author: Johannes Hollenbach
     # googleAnalyticsID: G-XXXXX
     DateFormat: January 2006
     defaultTheme: light
@@ -44,7 +38,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: [books, courses, papers, data]
+    MainSections: []
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -54,50 +48,28 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: picture.jpeg
+          title: Johannes Hollenbach
+          subtitle: "I am a PhD candidate in Economics at Paderborn University and a researcher at RWI - Leibniz Institute for Economic Research in Essen, Germany. My main fields are applied econometrics and health economics, with a focus on health effects of education, the economics of aging, and social science genetics. I was a visitor at [UW-Madison](https://isg.wisc.edu/people/) in Fall 2024 and at [WU Vienna](https://www.wu.ac.at/en/institute-for-social-policy/) in Fall 2021."
+          imageUrl: images/profile_picture.jpg
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: Research
+              url: research/
+            - name: Teaching
+              url: teaching/
+            - name: CV
+              url: files/hollenbach_cv.pdf
 
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: files/hollenbach_cv.pdf
         - name: Email
-          url: mailto:user@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/user
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
+          url: mailto:johannes.hollenbach@rwi-essen.de
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=user
-        - name: GitHub
-          url: https://github.com/user
-        - name: YouTube
-          url: https://www.youtube.com/@user
-        - name: Substack
-          url: https://user.substack.com
-        - name: Twitter
-          url: https://x.com/user
-        - name: Bluesky
-          url: https://bsky.app/profile/user.bsky.social
+          url: https://scholar.google.com/citations?user=hasnrIwAAAAJ&hl=en
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/johannes-hollenbach
 
     assets:
         disableScrollBarStyle: true
@@ -105,7 +77,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: Moritz-Maria von Igelfeld
+      text: Johannes Hollenbach
       icon: favicon.ico
       iconHeight: 18
 

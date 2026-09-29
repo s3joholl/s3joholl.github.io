@@ -1,0 +1,26 @@
+{{- define "paper-list" }}
+{{- range . }}
+<div class="paper">
+  <a class="paper-title" href="{{ .url | relURL }}">{{ .title }}</a>
+  {{- with .coauthors }}<div class="paper-meta">with {{ . }}</div>{{ end }}
+  {{- with .venue }}<div class="paper-meta">{{ . | markdownify }}</div>{{ end }}
+  {{- with .abstract }}
+  <details class="paper-abstract">
+    <summary>Abstract</summary>
+    <p>{{ . | markdownify }}</p>
+  </details>
+  {{- end }}
+</div>
+{{- end }}
+{{- end }}
+
+{{- range site.Data.papers }}
+<h2>{{ .heading }}</h2>
+{{- with .note }}<p class="paper-note">{{ . | markdownify }}</p>{{ end }}
+{{- template "paper-list" .papers }}
+{{- range .subsections }}
+<h3>{{ .heading }}</h3>
+{{- with .note }}<p class="paper-note">{{ . | markdownify }}</p>{{ end }}
+{{- template "paper-list" .papers }}
+{{- end }}
+{{- end }}

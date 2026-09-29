@@ -1,0 +1,28 @@
+# Teaching page content, newest term first.
+# Course fields: name, level, role, institution.
+
+- term: Summer 2025
+  courses:
+    - name: Microeconometrics
+      level: graduate
+      role: Teaching Assistant
+      institution: Paderborn University
+    - name: Statistics
+      level: undergraduate
+      role: Teaching Assistant
+      institution: Paderborn University
+
+- term: Summer 2024
+  courses:
+    - name: Microeconometrics
+      level: graduate
+      role: Teaching Assistant
+      institution: Paderborn University
+    - name: Empirical Economics
+      level: undergraduate
+      role: Teaching Assistant
+      institution: Paderborn University
+    - name: Health Care Systems
+      level: graduate
+      role: Teaching Assistant
+      institution: University of Duisburg-Essen

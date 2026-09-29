@@ -1,0 +1,53 @@
+# Research page content. Each section has a heading, optional subsections,
+# an optional intro note, and a list of papers.
+# Paper fields: title, url, coauthors (optional), venue (optional, Markdown allowed), abstract.
+
+- heading: Work in Progress
+  papers:
+    - title: Genetic Endowments and the Long-Run Health Returns to Compulsory Schooling
+      url: /files/hollenbach_jmp.pdf
+      venue: First draft
+      abstract: >-
+        Genetic differences tied to educational attainment predict later-life success and wellbeing. I study whether they also moderate how education affects physical health in old age. Using data on individuals aged 65 to 85 from the English Longitudinal Study of Ageing, I exploit the 1947 raising of the school leaving age in the UK from 14 to 15 in a fuzzy regression discontinuity setting to estimate the causal effect of schooling on frailty, the share of age-related health deficits. I estimate interactions with an educational attainment polygenic index (EA PGI), a DNA-based measure of genetic propensity for education. Health returns to schooling rise monotonically along the EA PGI, from zero in the lowest quintile to a 6 percentage point reduction in frailty in the highest. This gradient points to a complementarity between genetic endowments and education with the gains originating at the upper part of the frailty distribution. Suggestive evidence on channels indicates reduced smoking, higher physical activity, and a lower probability of receiving a disability pension.
+
+- heading: Journal Articles
+  subsections:
+    - heading: Economics and General Interest
+      papers:
+        - title: Gene-Environment Interactions with Essential Heterogeneity
+          url: https://academic.oup.com/ej/advance-article-abstract/doi/10.1093/ej/ueag010/8439542
+          coauthors: Hendrik Schmitz and Matthias Westphal
+          venue: "*The Economic Journal*, forthcoming"
+          abstract: >-
+            We study how gene-environment interactions between education and genetic endowments affect cognition in old age and use this setting to show that – even with a valid instrument – two-stage least squares (2SLS) estimates of interaction effects can be far away from the true effect. This is the case when treatment effects are heterogeneous and compliance to the instrument depends on the interaction variable. We suggest estimating marginal treatment effects to address this problem. Our estimation results show complementarities between education and genetic predisposition in determining later-life memory. The marginal treatment effect estimates suggest substantially larger gene-environment interactions than the 2SLS estimates.
+
+        - title: Life-cycle health effects of compulsory schooling
+          url: https://rdcu.be/eYK6E
+          coauthors: Hendrik Schmitz and Beatrice Tawiah
+          venue: "*The European Journal of Health Economics*, 2026, Vol. 27, 1293–1322"
+          abstract: >-
+            We study the effect of education on health (hospital stays, number of diagnosed conditions, poor or bad self-rated health, and body mass index) over the life cycle, using German compulsory schooling reforms as a source of exogenous variation. Our results show clear correlations between educational attainment and better health across all age groups (30 to 74). However, we do not find causal relationships between additional schooling and health or health care utilization, neither earlier nor later in life. A simulated ex-post power analysis shows that this is not due to a lack of statistical power. One reason for the absence of effects may be that the studied compulsory schooling reforms succeeded in raising the educational attainment of the target group - individuals at the lowest educational margin - but did not lead to healthier employment opportunities.
+
+        - title: The Impact of Retirement on Loneliness in Europe
+          url: https://rdcu.be/eYLak
+          coauthors: Sophie Guthmuller, Dörte Heger and Anna Werbeck
+          venue: "*Scientific Reports*, 2024, Vol. 14, Article number: 26971"
+          abstract: >-
+            This article investigates the short- and long-term impacts of retirement on loneliness using panel data from the Survey of Health, Aging, and Retirement in Europe. To identify causal effects, we exploit differences in retirement rules across and within countries and use retirement thresholds in an instrumental variable setting. On average, we find that entering retirement leads to a reduction in loneliness in the long run and no clear effect in the short run. The reduction is driven by individuals being less likely to feel socially isolated and lacking companionship. Our results suggest that individuals adapt to retirement by increasing their activity levels and reap the benefits in terms of reduced loneliness and social isolation. The heterogeneity analysis shows that this is particularly true among the higher educated. The heterogeneity analysis also reveals that retirement increases feelings of loneliness for women in the short term and that the effect seems to be driven by women lacking companionship when their partner is not yet retired.
+
+    - heading: Health Policy
+      note: As part of my work in policy consulting at RWI, I have written about the digitalization and the economic situation of hospitals.
+      papers:
+        - title: "A Nationwide Digital Maturity Assessment of Hospitals: Results From the German DigitalRadar"
+          url: https://www.sciencedirect.com/science/article/pii/S2211883724000674
+          coauthors: Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun, and Alexander Haering
+          venue: "*Health Policy and Technology*, 2024, Vol. 13(4)"
+          abstract: >-
+            In 2019, the German government established the Hospital Future Fund, allocating 4.3 billion Euros, to support investments in the digital infrastructure of hospitals. The DigitalRadar consortium was commissioned by the German Ministry of Health in 2020 to develop a holistic digital maturity model and evaluate the current state of digitalization and the impact of the funding program. To date, the nationwide digitalization of German hospitals has remained a relatively understudied phenomenon. This study aims to address this gap in knowledge by examining the influence of various factors identified by the DigitalRadar maturity model on the digital maturity of hospitals in Germany. In doing so, it seeks to elucidate the implications these findings have for the development of a digital, patient-centred, safe, and high-quality hospital landscape in the country. The model includes 234 questions categorized into 7 dimensions of digitalization. 1,624 hospitals (91% of all German hospitals) participated. The average DigitalRadar score is 33 on a 100-point scale. Drivers include teaching status, size, connectivity, and level of emergency services.
+
+        - title: The Association of Hospital Profitability and Digital Maturity – An Explorative Study Using Data From the German DigitalRadar Project
+          url: https://www.sciencedirect.com/science/article/pii/S0168851024000228
+          coauthors: Justus Vogel, Alexander Haering, Boris Augurzky, and Alexander Geissler
+          venue: "*Health Policy*, 2024, Vol. 142"
+          abstract: >-
+            German hospitals largely rely on public investments for digitization. As these have been insufficient, hospitals had to use own profits to foster digital transformation. Thus, we assess if profitability affects digital maturity, and what other factors might be influential. We use DigitalRadar data (2021) and financial statement data (2017 to 2019, n = 860). A one percentage point EBITDA margin increase is associated with a 0.359 points DR-score increase. Chain membership and chain size are positively associated with DR-score.

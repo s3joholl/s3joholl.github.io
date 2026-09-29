@@ -1,0 +1,45 @@
+/* Research page: one compact pane per paper */
+.paper {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    margin-bottom: 12px;
+}
+.post-content .paper a.paper-title {
+    font-weight: 600;
+    box-shadow: none;
+    color: var(--primary);
+}
+.post-content .paper a.paper-title:hover {
+    text-decoration: underline;
+}
+.paper-meta {
+    color: var(--secondary);
+    font-size: 0.9em;
+    margin-top: 2px;
+}
+.paper-meta p {
+    margin: 0;
+}
+.post-content .paper-abstract {
+    margin-top: 6px;
+}
+.paper-abstract summary {
+    cursor: pointer;
+    font-size: 0.85em;
+    color: var(--secondary);
+    width: fit-content;
+}
+.paper-abstract summary:hover {
+    color: var(--primary);
+}
+.post-content .paper-abstract p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin: 8px 0 2px;
+    text-align: justify;
+}
+.paper-note {
+    color: var(--secondary);
+}

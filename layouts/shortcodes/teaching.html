@@ -1,0 +1,8 @@
+{{- range site.Data.teaching }}
+<h3>{{ .term }}</h3>
+<ul>
+  {{- range .courses }}
+  <li>{{ .name }} ({{ .level }}), {{ .role }}{{ with .institution }}, {{ . }}{{ end }}</li>
+  {{- end }}
+</ul>
+{{- end }}
