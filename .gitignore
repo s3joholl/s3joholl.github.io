@@ -3,3 +3,5 @@ public/
 resources/
 .hugo_build.lock
 .claude/
+originals/
+.DS_Store
