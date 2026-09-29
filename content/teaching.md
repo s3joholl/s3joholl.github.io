@@ -10,4 +10,4 @@ bodyClass: teaching
 
 ## Thesis Supervision
 
-I am regularly involved in supervising Bachelor's and Master's theses in health economics and economics.
+I am regularly involved in supervising Bachelor's and Master's theses in health economics.
