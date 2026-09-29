@@ -145,11 +145,5 @@
 {{- partial "templates/twitter_cards.html" . }}
 {{- partial "templates/schema_json.html" . }}
 
-{{ if and (hugo.IsProduction) (.Site.Params.googleAnalyticsID) }}
-{{- partial "analytics.html" . }}
-{{ end }}
 
-{{ if or .Page.Params.math .Site.Params.math }}
-{{- partial "math.html" .}}
-{{ end }} 
 

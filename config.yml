@@ -2,13 +2,8 @@ baseURL: "https://johanneshollenbach.com/"
 title: Johannes Hollenbach
 theme: PaperMod
 
-enableInlineShortcodes: true
 enableRobotsTXT: true
-pagination:
-  pagerSize: 20
-
-taxonomies:
-    tag: tags
+disableKinds: [taxonomy, term, rss]
 
 menu:
     main:
@@ -25,27 +20,9 @@ menu:
 params:
     description: "Personal website of Johannes Hollenbach, economist at RWI - Leibniz Institute for Economic Research: research papers, teaching, CV, and contact information."
     author: Johannes Hollenbach
-    # googleAnalyticsID: G-XXXXX
-    DateFormat: January 2006
     defaultTheme: light
-    hideFooter: false
     disableThemeToggle: true
-    ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
-    disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
-    ShowAllPagesInArchive: false
-    MainSections: []
-    ShowToc: false
     disableScrollToTop: true
-    TocOpen: true
-    ShowWordCount: false
-    UseHugoToc: true
-    comments: false
-    math: true
     profileMode:
           enabled: true
           title: Johannes Hollenbach
@@ -76,9 +53,6 @@ params:
 
     assets:
         disableScrollBarStyle: true
-    cover:
-        hiddenInList: false
-        hiddenInSingle: true
     label:
       text: Johannes Hollenbach
       icon: favicon.ico
@@ -88,10 +62,3 @@ markup:
     goldmark:
         renderer:
             unsafe: true
-    highlight:
-        guessSyntax: true
-        style: autumn 
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2

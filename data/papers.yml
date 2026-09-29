@@ -15,21 +15,21 @@
     - heading: Economics and General Interest
       papers:
         - title: Gene-Environment Interactions with Essential Heterogeneity
-          url: https://academic.oup.com/ej/advance-article-abstract/doi/10.1093/ej/ueag010/8439542
+          url: https://doi.org/10.1093/ej/ueag010
           coauthors: Hendrik Schmitz and Matthias Westphal
           venue: "*The Economic Journal*, forthcoming"
           abstract: >-
             We study how gene-environment interactions between education and genetic endowments affect cognition in old age and use this setting to show that – even with a valid instrument – two-stage least squares (2SLS) estimates of interaction effects can be far away from the true effect. This is the case when treatment effects are heterogeneous and compliance to the instrument depends on the interaction variable. We suggest estimating marginal treatment effects to address this problem. Our estimation results show complementarities between education and genetic predisposition in determining later-life memory. The marginal treatment effect estimates suggest substantially larger gene-environment interactions than the 2SLS estimates.
 
         - title: Life-cycle health effects of compulsory schooling
-          url: https://rdcu.be/eYK6E
+          url: https://doi.org/10.1007/s10198-025-01884-2
           coauthors: Hendrik Schmitz and Beatrice Tawiah
           venue: "*The European Journal of Health Economics*, 2026, Vol. 27, 1293–1322"
           abstract: >-
             We study the effect of education on health (hospital stays, number of diagnosed conditions, poor or bad self-rated health, and body mass index) over the life cycle, using German compulsory schooling reforms as a source of exogenous variation. Our results show clear correlations between educational attainment and better health across all age groups (30 to 74). However, we do not find causal relationships between additional schooling and health or health care utilization, neither earlier nor later in life. A simulated ex-post power analysis shows that this is not due to a lack of statistical power. One reason for the absence of effects may be that the studied compulsory schooling reforms succeeded in raising the educational attainment of the target group - individuals at the lowest educational margin - but did not lead to healthier employment opportunities.
 
         - title: The Impact of Retirement on Loneliness in Europe
-          url: https://rdcu.be/eYLak
+          url: https://doi.org/10.1038/s41598-024-74692-y
           coauthors: Sophie Guthmuller, Dörte Heger and Anna Werbeck
           venue: "*Scientific Reports*, 2024, Vol. 14, Article number: 26971"
           abstract: >-

@@ -14,7 +14,7 @@
 {{- end }}
 {{- end }}
 
-{{- range site.Data.papers }}
+{{- range hugo.Data.papers }}
 <h2>{{ .heading }}</h2>
 {{- with .note }}<p class="paper-note">{{ . | markdownify }}</p>{{ end }}
 {{- template "paper-list" .papers }}
