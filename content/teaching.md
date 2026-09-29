@@ -2,6 +2,7 @@
 title: "Teaching"
 description: "Teaching and thesis supervision by Johannes Hollenbach."
 hideMeta: true
+bodyClass: teaching
 ---
 
 ## Courses

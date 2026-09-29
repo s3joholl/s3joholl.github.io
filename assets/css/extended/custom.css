@@ -16,11 +16,14 @@
 }
 .paper-meta {
     color: var(--primary);
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-top: 2px;
 }
 .paper-meta p {
     margin: 0;
+}
+.paper-meta em {
+    font-weight: 600;
 }
 .post-content .paper-abstract {
     margin-top: 6px;
@@ -41,7 +44,15 @@
     text-align: justify;
 }
 .post-content .paper-note {
-    font-size: 0.9em;
+    font-size: 0.8em;
+}
+
+/* Teaching page: tighter spacing below section headings */
+.teaching .post-content h2 {
+    margin-bottom: 14px;
+}
+.teaching .post-content h2 + h3 {
+    margin-top: 0;
 }
 
 /* Page titles in the accent color */
