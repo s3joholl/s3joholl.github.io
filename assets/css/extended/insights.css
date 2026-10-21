@@ -1,0 +1,227 @@
+/* Insights landing page: same panes as the research page, whole pane clickable */
+body.insights-index {
+    background: var(--theme);
+}
+.insight-entry {
+    position: relative;
+    transition: border-color 0.1s;
+}
+.insight-entry:hover {
+    border-color: var(--darkcolor);
+}
+.post-content .insight-entry a.paper-title::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+}
+.post-content .insight-entry .paper-meta a {
+    position: relative;
+    z-index: 1;
+    box-shadow: none;
+    font-style: italic;
+}
+.post-content .insight-entry .paper-meta a:hover {
+    text-decoration: underline;
+}
+.post-content .insight-entry p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin: 6px 0 8px;
+}
+
+/* Research page: button from a paper to its Insights page, right side of the pane */
+.paper-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px 20px;
+}
+.paper-head-text {
+    min-width: 0;
+}
+.post-content .paper a.paper-button {
+    flex-shrink: 0;
+    margin-top: 2px;
+    padding: 3px 10px;
+    border-radius: 6px;
+    background: var(--darkcolor);
+    color: #fff;
+    font-size: 0.72em;
+    font-weight: 500;
+    line-height: 1.4;
+    white-space: nowrap;
+    box-shadow: none;
+    transition: background 0.1s;
+}
+.post-content .paper a.paper-button:hover {
+    background: #57678c;
+}
+@media (max-width: 600px) {
+    .paper-head {
+        flex-direction: column;
+    }
+}
+
+/* Insight pages */
+.insight .breadcrumbs {
+    font-size: 17px;
+}
+.insight .breadcrumbs .back-arrow {
+    font-size: 1.35em;
+    line-height: 1;
+    vertical-align: -0.06em;
+}
+.insight .breadcrumbs a:hover {
+    color: var(--darkcolor);
+}
+.insight .post-content mjx-container[display="true"] {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 2px 0;
+}
+.insight #references + ul {
+    list-style: none;
+    padding-inline-start: 0;
+    margin-left: 0;
+    font-size: 0.9em;
+}
+.insight #references + ul li {
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+}
+
+/* Interactive figures */
+.sim {
+    --sim-g1: var(--darkcolor);
+    --sim-g0: #c47a4e;
+    --sim-true: var(--primary);
+    --sim-est: var(--gray);
+    --sim-fill: rgb(234, 234, 234);
+    --sim-overlap: rgba(30, 30, 30, 0.06);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin: 28px 0 32px;
+}
+.sim-controls {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px 28px;
+}
+@media (max-width: 600px) {
+    .sim-controls {
+        grid-template-columns: 1fr;
+    }
+}
+.sim-slider {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+}
+.sim-slider label {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+}
+.sim-slider output {
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--secondary);
+    font-variant-numeric: tabular-nums;
+}
+.sim-slider .hint {
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--secondary);
+}
+.sim input[type=range] {
+    width: 100%;
+    accent-color: var(--darkcolor);
+    margin: 4px 0;
+}
+.sim input:focus-visible {
+    outline: 2px solid var(--darkcolor);
+    outline-offset: 2px;
+}
+.sim-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 22px;
+    font-size: 15px;
+    color: var(--secondary);
+}
+.sim-legend > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+.sim-legend-2col {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+}
+@media (max-width: 520px) {
+    .sim-legend-2col {
+        grid-template-columns: 1fr;
+    }
+}
+.sim-chart {
+    width: 100%;
+    min-width: 0;
+}
+.sim-chart svg {
+    display: block;
+    overflow: visible;
+}
+.sim-chart text {
+    font-variant-numeric: lining-nums;
+}
+.sim-chart .ax { font-size: 12.5px; fill: var(--secondary); }
+.sim-chart .ax-t { font-size: 14px; fill: var(--secondary); }
+.sim-chart .lbl { font-size: 14px; fill: var(--primary); }
+.sim-chart .lbl-2 { font-size: 13.5px; fill: var(--secondary); }
+.sim-chart .lbl-m { font-size: 14px; fill: var(--primary); font-weight: 600; font-variant-numeric: tabular-nums; }
+.sim-chart .gl { stroke: var(--border); stroke-width: 1; }
+.sim-chart .zl { stroke: var(--gray); stroke-width: 1; }
+.sim-readout {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+.sim-readout > div {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 12px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+}
+.sim-readout .k {
+    font-size: 14px;
+    color: var(--secondary);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.sim-readout .v {
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--primary);
+    font-variant-numeric: tabular-nums;
+}
+.sim-readout .sw-bar {
+    width: 14px;
+    height: 10px;
+    border-radius: 2px;
+    display: inline-block;
+}

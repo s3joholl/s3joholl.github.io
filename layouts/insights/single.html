@@ -1,0 +1,20 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="{{ .Parent.RelPermalink }}"><span class="back-arrow">←</span> {{ .Parent.Title }}</a></div>
+    <h1 class="post-title">{{ .Title }}</h1>
+  </header>
+  <div class="post-content">
+    {{- .Content }}
+  </div>
+</article>
+
+{{- /* Interactive figures: any .js file in the page bundle */}}
+{{- range .Resources.Match "*.js" }}
+{{- with . | minify | fingerprint }}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+{{- end }}
+{{- end }}
+
+{{- end }}{{/* end main */}}

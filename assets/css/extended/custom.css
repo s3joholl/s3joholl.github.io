@@ -55,6 +55,11 @@
     margin-top: 0;
 }
 
+/* List bullets and numbers in the text color (theme default is light grey) */
+.post-content li::marker {
+    color: var(--primary);
+}
+
 /* Page titles in the accent color */
 .post-title {
     color: var(--darkcolor);

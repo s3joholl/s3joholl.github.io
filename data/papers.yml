@@ -1,6 +1,7 @@
 # Research page content. Each section has a heading, optional subsections,
 # an optional intro note, and a list of papers.
-# Paper fields: title, url, coauthors (optional), venue (optional, Markdown allowed), abstract.
+# Paper fields: title, url, coauthors (optional), venue (optional, Markdown allowed),
+# insight (optional, link to a page in content/insights/), abstract.
 
 - heading: Work in Progress
   papers:
@@ -18,6 +19,7 @@
           url: https://doi.org/10.1093/ej/ueag010
           coauthors: Hendrik Schmitz and Matthias Westphal
           venue: "*The Economic Journal*, forthcoming"
+          insight: /insights/iv-interaction-effects/
           abstract: >-
             We study how gene-environment interactions between education and genetic endowments affect cognition in old age and use this setting to show that – even with a valid instrument – two-stage least squares (2SLS) estimates of interaction effects can be far away from the true effect. This is the case when treatment effects are heterogeneous and compliance to the instrument depends on the interaction variable. We suggest estimating marginal treatment effects to address this problem. Our estimation results show complementarities between education and genetic predisposition in determining later-life memory. The marginal treatment effect estimates suggest substantially larger gene-environment interactions than the 2SLS estimates.
 

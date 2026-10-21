@@ -1,9 +1,14 @@
 {{- define "paper-list" }}
 {{- range . }}
 <div class="paper">
-  <a class="paper-title" href="{{ .url | relURL }}">{{ .title }}</a>
-  {{- with .coauthors }}<div class="paper-meta">with {{ . }}</div>{{ end }}
-  {{- with .venue }}<div class="paper-meta">{{ . | markdownify }}</div>{{ end }}
+  <div class="paper-head">
+    <div class="paper-head-text">
+      <a class="paper-title" href="{{ .url | relURL }}">{{ .title }}</a>
+      {{- with .coauthors }}<div class="paper-meta">with {{ . }}</div>{{ end }}
+      {{- with .venue }}<div class="paper-meta">{{ . | markdownify }}</div>{{ end }}
+    </div>
+    {{- with .insight }}<a class="paper-button" href="{{ . | relURL }}">Interactive explainer →</a>{{ end }}
+  </div>
   {{- with .abstract }}
   <details class="paper-abstract">
     <summary>Abstract</summary>

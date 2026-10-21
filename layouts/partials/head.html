@@ -147,3 +147,13 @@
 
 
 
+{{- /* Math: pages with `math: true` in front matter load MathJax */}}
+{{- if .Params.math }}
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [["$", "$"]], displayMath: [["$$", "$$"]] },
+    svg: { fontCache: "global" }
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.min.js" async></script>
+{{- end }}

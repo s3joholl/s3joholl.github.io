@@ -10,12 +10,15 @@ menu:
         - name: Research
           url: research/
           weight: 1
-        - name: Teaching
-          url: teaching/
-          weight: 2
         - name: CV
           url: files/hollenbach_cv.pdf
+          weight: 2
+        - name: Teaching
+          url: teaching/
           weight: 3
+        - name: Insights
+          url: insights/
+          weight: 4
 
 params:
     description: "Personal website of Johannes Hollenbach, economist at RWI - Leibniz Institute for Economic Research: research papers, teaching, CV, and contact information."
@@ -38,10 +41,12 @@ params:
           buttons:
             - name: Research
               url: research/
-            - name: Teaching
-              url: teaching/
             - name: CV
               url: files/hollenbach_cv.pdf
+            - name: Teaching
+              url: teaching/
+            - name: Insights
+              url: insights/
 
     socialIcons:
         - name: Email
@@ -62,3 +67,10 @@ markup:
     goldmark:
         renderer:
             unsafe: true
+        # Keep $...$ and $$...$$ untouched so MathJax can render them (pages with math: true)
+        extensions:
+            passthrough:
+                enable: true
+                delimiters:
+                    block: [["$$", "$$"]]
+                    inline: [["$", "$"]]

@@ -1,0 +1,21 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+  </header>
+  <div class="post-content">
+    {{- .Content }}
+    {{- range .RegularPages.ByDate.Reverse }}
+    <div class="paper insight-entry">
+      <a class="paper-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{- with .Params.summary }}<p>{{ . | markdownify }}</p>{{ end }}
+      {{- with .Params.paper }}
+      <div class="paper-meta">Based on <a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>{{ with .coauthors }} (with {{ . }}){{ end }}</div>
+      {{- end }}
+    </div>
+    {{- end }}
+  </div>
+</article>
+
+{{- end }}{{/* end main */}}
