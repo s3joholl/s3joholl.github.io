@@ -8,12 +8,12 @@ function E(tag, attrs, parent) {
   if (parent) parent.appendChild(n);
   return n;
 }
-// Text with single-letter variables (D, Y, I, U) set in italic, as in the math.
+// Text with single-letter variables (E, Y, G, U) set in italic, as in the math.
 function T(parent, x, y, text, attrs) {
   const t = E("text", Object.assign({ x, y }, attrs || {}), parent);
-  text.split(/(\b[DYIU]\b)/).forEach(part => {
+  text.split(/(\b[EYGU]\b)/).forEach(part => {
     if (!part) return;
-    const s = E("tspan", /^[DYIU]$/.test(part) ? { "font-style": "italic" } : null, t);
+    const s = E("tspan", /^[EYGU]$/.test(part) ? { "font-style": "italic" } : null, t);
     s.textContent = part;
   });
   return t;
@@ -24,12 +24,12 @@ const B3 = 1.5, A = 2.0;
 const states = { sim: { s: 0, d: 0 }, sol: { s: 0, d: 0 } };
 
 function model(p) {
-  // Complier populations on the U scale: I = 0 fixed, I = 1 shifted by the first-stage gradient.
+  // Complier populations on the U scale: G = 0 fixed, G = 1 shifted by the first-stage gradient.
   const a0 = 0.25, b0 = 0.74;
   const a1 = 0.25 + p.d, b1 = 0.74 + p.d * 0.15;
   const u0 = (a0 + b0) / 2, u1 = (a1 + b1) / 2;     // middle of each complier population
-  const mte0 = u => A - p.s * (u - 0.5);              // effect at U for I = 0
-  const mte1 = u => mte0(u) + B3;                     // same U, I = 1
+  const mte0 = u => A - p.s * (u - 0.5);              // effect at U for G = 0
+  const mte1 = u => mte0(u) + B3;                     // same U, G = 1
   const late0 = mte0(u0), late1 = mte1(u1);           // average over each (uniform) complier band
   return { a0, b0, a1, b1, u0, u1, mte0, mte1, late0, late1, iv: late1 - late0 };
 }
@@ -59,11 +59,11 @@ function draw(id, mode) {
     E("line", { x1: m.l, x2: m.l + pw, y1: y(v), y2: y(v), class: v === 0 ? "zl" : "gl" }, svg);
     T(svg, m.l - 8, y(v) + 4, String(v).replace("-", "−"), { class: "ax", "text-anchor": "end" });
   }
-  T(svg, 0, 0, "Interaction effect", { class: "ax-t", "text-anchor": "middle", transform: `translate(15,${m.t + ph / 2}) rotate(-90)` });
+  T(svg, 0, 0, narrow ? "Effect of education" : "Effect of education on cognitive ability", { class: "ax-t", "text-anchor": "middle", transform: `translate(15,${m.t + ph / 2}) rotate(-90)` });
 
   const rows = [
-    { name: "I = 1", c: "var(--sim-g1)", a: M.a1, b: M.b1, mu: M.u1, late: M.late1, f: M.mte1, row: 0 },
-    { name: "I = 0", c: "var(--sim-g0)", a: M.a0, b: M.b0, mu: M.u0, late: M.late0, f: M.mte0, row: 1 }
+    { name: "G = 1", c: "var(--sim-g1)", a: M.a1, b: M.b1, mu: M.u1, late: M.late1, f: M.mte1, row: 0 },
+    { name: "G = 0", c: "var(--sim-g0)", a: M.a0, b: M.b0, mu: M.u0, late: M.late0, f: M.mte0, row: 1 }
   ];
   const rowTop = r => bandsTop + r * (rowH + rowGap);
 
@@ -78,7 +78,7 @@ function draw(id, mode) {
     E("line", { x1: x(r.mu), x2: x(r.mu), y1: y(r.late), y2: rowTop(r.row), style: `stroke:${r.c};stroke-width:1.75;stroke-dasharray:4 3;opacity:.7` }, svg);
   });
 
-  // right-hand brackets: true interaction vs estimate, both measured from the I = 0 reference point
+  // right-hand brackets: true interaction vs estimate, both measured from the G = 0 reference point
   // (2SLS view: the two LATEs; solution view: both curves at the middle of the overlap)
   const gx = m.l + pw;
   const xT = gx + 22, xS = gx + (narrow ? 66 : 78);
@@ -165,7 +165,7 @@ function draw(id, mode) {
   });
   T(svg, x(0), axisY + 37, narrow ? "← Eager" : "← More eager", { class: "ax-t" });
   T(svg, x(1), axisY + 37, narrow ? "Reluctant →" : "More reluctant →", { class: "ax-t", "text-anchor": "end" });
-  T(svg, x(0.5), axisY + 58, "Unobserved resistance to taking the treatment, U", { class: "ax-t", "text-anchor": "middle", style: "font-weight:600" });
+  T(svg, x(0.5), axisY + 58, "Unobserved resistance to education, U", { class: "ax-t", "text-anchor": "middle", style: "font-weight:600" });
 
   const mteEst = w1 > w0 ? B3 : NaN;   // average same-U difference over the overlap
   document.getElementById(sol ? "readout2" : "readout").innerHTML =
