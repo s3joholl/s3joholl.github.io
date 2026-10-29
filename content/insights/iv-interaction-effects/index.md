@@ -1,5 +1,5 @@
 ---
-title: "Interaction Effects with Instrumental Variables"
+title: "Estimating Interaction Effects with Instrumental Variables"
 description: "Why conventional instrumental variable estimates of interaction effects can be misleading when treatment effects are heterogeneous, with interactive simulations."
 summary: "Why 2SLS estimates of interaction effects can be misleading when treatment effects are heterogeneous, and how marginal treatment effects address this."
 date: 2026-10-21
