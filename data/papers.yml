@@ -40,6 +40,16 @@
     - heading: Health Policy
       note: As part of my work in policy consulting at RWI, I have written about the digitalization and the economic situation of hospitals.
       papers:
+        - title: "Evolution of digital maturity of German hospitals - A longitudinal analysis from 2021 to 2024"
+          url: https://www.sciencedirect.com/science/article/pii/S2211883726002005
+          coauthors: Malte Haring, Friederike Hasse, Alexander Haering, Kerstin Materne, Steffen Rohwer, Frank Fritzsche, Sylvia Thun, Volker Amelung, Jens Peukert, and Alexander Geissler
+          venue: "*Health Policy and Technology*, forthcoming.
+          abstract: >-  
+            Objectives: Following major investments through the Hospital Future Fund (2019-2025), the German Federal Ministry of Health commissioned the DigitalRadar consortium to develop a digital maturity model for German hospitals and evaluate progress across three waves (2021, 2024, 2026). In 2024, the digital maturity of the hospitals was reassessed with wave 2 and examined changes since 2021, hospitals’ perceptions and use of the assessment, and the relevance of digitalization for patients.
+            Methods: The maturity model was updated for wave 2. Data were collected via an online survey from interdisciplinary hospital teams (n≈1,592). A mixed-methods evaluation examined user experience and acceptance, and included patient perspectives. This comprised quantitative surveys (stakeholders: n=276–337; patients: n=253) and qualitative interviews with hospitals (n=30) and patients (n=94).
+            Results: Between 2021 and 2024, average digital maturity increased by 27% to 42/100. Highest scores were observed in the dimensions Structures and Systems and Clinical Processes, while Patient Participation showed the largest relative improvement (∼90.5%). Maturity levels continued to vary by hospital characteristics. 80% of hospitals reported improved usability and clarity of the instrument, though technical and content-related refinements remain necessary. Digital applications addressing patients are still rarely implemented.
+            Conclusions: Although digital maturity improved noticeably, the overall level remains moderate, indicating substantial remaining transformation needs. To ensure long-term success of digitalization measures, funding should continue in the future. The longitudinal and participatory design of this study remains uncommon and addresses key limitations of conventional cross-sectional evaluations in the healthcare sector and beyond.
+
         - title: "A Nationwide Digital Maturity Assessment of Hospitals: Results From the German DigitalRadar"
           url: https://www.sciencedirect.com/science/article/pii/S2211883724000674
           coauthors: Alexander Geissler, Malte Haring, Volker Amelung, Sylvia Thun, and Alexander Haering
